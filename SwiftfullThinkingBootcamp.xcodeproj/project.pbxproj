@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B072BD22B54340000242201 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B072BD12B54340000242201 /* Stacks.swift */; };
+		0B072BD52B543ED000242201 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B072BD42B543ED000242201 /* Padding.swift */; };
 		0B2DD8362B51CA84002401EB /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD8352B51CA84002401EB /* Gradients.swift */; };
 		0B2DD8392B51D1D1002401EB /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD8382B51D1D1002401EB /* SystemIcons.swift */; };
 		0B2DD83C2B51DA23002401EB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD83B2B51DA23002401EB /* Images.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		0B072BD12B54340000242201 /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		0B072BD42B543ED000242201 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		0B2DD8352B51CA84002401EB /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		0B2DD8382B51D1D1002401EB /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
 		0B2DD83B2B51DA23002401EB /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 				0B072BD12B54340000242201 /* Stacks.swift */,
 			);
 			path = "9-Stacks";
+			sourceTree = "<group>";
+		};
+		0B072BD32B543EB200242201 /* 10-Padding */ = {
+			isa = PBXGroup;
+			children = (
+				0B072BD42B543ED000242201 /* Padding.swift */,
+			);
+			path = "10-Padding";
 			sourceTree = "<group>";
 		};
 		0B2DD8372B51D1BE002401EB /* 5-SystemIcons */ = {
@@ -116,6 +126,7 @@
 				0B51617A2B52F320002913EE /* 7-Frame */,
 				0B51617D2B5302E7002913EE /* 8-Background and Overlay */,
 				0B072BD02B5433F100242201 /* 9-Stacks */,
+				0B072BD32B543EB200242201 /* 10-Padding */,
 				0B5B02B22B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift */,
 				0B5B02B62B4A879200C97EA8 /* Assets.xcassets */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
@@ -242,6 +253,7 @@
 				0B5B02C12B4AA19A00C97EA8 /* ShapesBootcamp.swift in Sources */,
 				0B5B02C32B4ABAA700C97EA8 /* ColorsBootcamp.swift in Sources */,
 				0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */,
+				0B072BD52B543ED000242201 /* Padding.swift in Sources */,
 				0B5B02B32B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
