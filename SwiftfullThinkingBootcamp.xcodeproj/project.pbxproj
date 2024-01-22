@@ -23,6 +23,7 @@
 		0BF81FE22B5ECF130017DF91 /* Spacer_Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE12B5ECF130017DF91 /* Spacer_Bootcamp.swift */; };
 		0BF81FE52B5ED15C0017DF91 /* InitsAndEmuns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */; };
 		0BF81FE82B5EDDB90017DF91 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE72B5EDDB90017DF91 /* ForEachBootcamp.swift */; };
+		0BF81FEB2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FEA2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		0BF81FE12B5ECF130017DF91 /* Spacer_Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Bootcamp.swift; sourceTree = "<group>"; };
 		0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitsAndEmuns.swift; sourceTree = "<group>"; };
 		0BF81FE72B5EDDB90017DF91 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
+		0BF81FEA2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				0BC5F8C72B5D75C500315C1A /* 11-Spacer */,
 				0BF81FE32B5ED1410017DF91 /* 12-Inits and Emuns */,
 				0BF81FE62B5ED9520017DF91 /* 13-For Each */,
+				0BF81FE92B5EEF450017DF91 /* 14-Scroll View */,
 				0B5B02B62B4A879200C97EA8 /* Assets.xcassets */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
 			);
@@ -205,6 +208,14 @@
 				0BF81FE72B5EDDB90017DF91 /* ForEachBootcamp.swift */,
 			);
 			path = "13-For Each";
+			sourceTree = "<group>";
+		};
+		0BF81FE92B5EEF450017DF91 /* 14-Scroll View */ = {
+			isa = PBXGroup;
+			children = (
+				0BF81FEA2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift */,
+			);
+			path = "14-Scroll View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 				0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */,
 				0B072BD52B543ED000242201 /* Padding.swift in Sources */,
 				0BF81FE82B5EDDB90017DF91 /* ForEachBootcamp.swift in Sources */,
+				0BF81FEB2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift in Sources */,
 				0BF81FE52B5ED15C0017DF91 /* InitsAndEmuns.swift in Sources */,
 				0B5B02B32B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift in Sources */,
 			);
