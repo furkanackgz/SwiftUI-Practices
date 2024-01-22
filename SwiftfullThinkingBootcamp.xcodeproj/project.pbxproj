@@ -20,6 +20,8 @@
 		0B5B02BA2B4A879200C97EA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5B02B92B4A879200C97EA8 /* Preview Assets.xcassets */; };
 		0B5B02C12B4AA19A00C97EA8 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B02C02B4AA19A00C97EA8 /* ShapesBootcamp.swift */; };
 		0B5B02C32B4ABAA700C97EA8 /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B02C22B4ABAA700C97EA8 /* ColorsBootcamp.swift */; };
+		0BF81FE22B5ECF130017DF91 /* Spacer_Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE12B5ECF130017DF91 /* Spacer_Bootcamp.swift */; };
+		0BF81FE52B5ED15C0017DF91 /* InitsAndEmuns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		0B5B02B92B4A879200C97EA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B5B02C02B4AA19A00C97EA8 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		0B5B02C22B4ABAA700C97EA8 /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
+		0BF81FE12B5ECF130017DF91 /* Spacer_Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Bootcamp.swift; sourceTree = "<group>"; };
+		0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitsAndEmuns.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		0B5B02B12B4A879100C97EA8 /* SwiftfullThinkingBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				0B5B02B22B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift */,
 				0BB5D3C62B5192E3003A45AA /* 1-Text */,
 				0BB5D3C72B5192F6003A45AA /* 2-Shapes */,
 				0BB5D3C82B5192FD003A45AA /* 3-Colors */,
@@ -127,7 +132,8 @@
 				0B51617D2B5302E7002913EE /* 8-Background and Overlay */,
 				0B072BD02B5433F100242201 /* 9-Stacks */,
 				0B072BD32B543EB200242201 /* 10-Padding */,
-				0B5B02B22B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift */,
+				0BC5F8C72B5D75C500315C1A /* 11-Spacer */,
+				0BF81FE32B5ED1410017DF91 /* 12-Inits and Emuns */,
 				0B5B02B62B4A879200C97EA8 /* Assets.xcassets */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
 			);
@@ -172,6 +178,22 @@
 				0B2DD8352B51CA84002401EB /* Gradients.swift */,
 			);
 			path = "4-Gradients";
+			sourceTree = "<group>";
+		};
+		0BC5F8C72B5D75C500315C1A /* 11-Spacer */ = {
+			isa = PBXGroup;
+			children = (
+				0BF81FE12B5ECF130017DF91 /* Spacer_Bootcamp.swift */,
+			);
+			path = "11-Spacer";
+			sourceTree = "<group>";
+		};
+		0BF81FE32B5ED1410017DF91 /* 12-Inits and Emuns */ = {
+			isa = PBXGroup;
+			children = (
+				0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */,
+			);
+			path = "12-Inits and Emuns";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +268,7 @@
 			files = (
 				0B072BD22B54340000242201 /* Stacks.swift in Sources */,
 				0B2DD83C2B51DA23002401EB /* Images.swift in Sources */,
+				0BF81FE22B5ECF130017DF91 /* Spacer_Bootcamp.swift in Sources */,
 				0B51617C2B52F332002913EE /* Frame.swift in Sources */,
 				0B5B02B52B4A879100C97EA8 /* ContentView.swift in Sources */,
 				0B2DD8392B51D1D1002401EB /* SystemIcons.swift in Sources */,
@@ -254,6 +277,7 @@
 				0B5B02C32B4ABAA700C97EA8 /* ColorsBootcamp.swift in Sources */,
 				0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */,
 				0B072BD52B543ED000242201 /* Padding.swift in Sources */,
+				0BF81FE52B5ED15C0017DF91 /* InitsAndEmuns.swift in Sources */,
 				0B5B02B32B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
