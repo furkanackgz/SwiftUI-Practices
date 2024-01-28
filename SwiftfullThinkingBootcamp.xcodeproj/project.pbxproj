@@ -12,6 +12,7 @@
 		0B2DD8362B51CA84002401EB /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD8352B51CA84002401EB /* Gradients.swift */; };
 		0B2DD8392B51D1D1002401EB /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD8382B51D1D1002401EB /* SystemIcons.swift */; };
 		0B2DD83C2B51DA23002401EB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD83B2B51DA23002401EB /* Images.swift */; };
+		0B2F78FD2B5F8DEF00016AD0 /* GridsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2F78FC2B5F8DEF00016AD0 /* GridsBootcamp.swift */; };
 		0B51617C2B52F332002913EE /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617B2B52F332002913EE /* Frame.swift */; };
 		0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */; };
 		0B5B02B32B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B02B22B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift */; };
@@ -32,6 +33,7 @@
 		0B2DD8352B51CA84002401EB /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		0B2DD8382B51D1D1002401EB /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
 		0B2DD83B2B51DA23002401EB /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		0B2F78FC2B5F8DEF00016AD0 /* GridsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsBootcamp.swift; sourceTree = "<group>"; };
 		0B51617B2B52F332002913EE /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
 		0B5B02AF2B4A879100C97EA8 /* SwiftfullThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfullThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +92,14 @@
 			path = "6-Images";
 			sourceTree = "<group>";
 		};
+		0B2F78FB2B5F8DD400016AD0 /* 15-Grids */ = {
+			isa = PBXGroup;
+			children = (
+				0B2F78FC2B5F8DEF00016AD0 /* GridsBootcamp.swift */,
+			);
+			path = "15-Grids";
+			sourceTree = "<group>";
+		};
 		0B51617A2B52F320002913EE /* 7-Frame */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +150,7 @@
 				0BF81FE32B5ED1410017DF91 /* 12-Inits and Emuns */,
 				0BF81FE62B5ED9520017DF91 /* 13-For Each */,
 				0BF81FE92B5EEF450017DF91 /* 14-Scroll View */,
+				0B2F78FB2B5F8DD400016AD0 /* 15-Grids */,
 				0B5B02B62B4A879200C97EA8 /* Assets.xcassets */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
 			);
@@ -300,6 +311,7 @@
 				0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */,
 				0B072BD52B543ED000242201 /* Padding.swift in Sources */,
 				0BF81FE82B5EDDB90017DF91 /* ForEachBootcamp.swift in Sources */,
+				0B2F78FD2B5F8DEF00016AD0 /* GridsBootcamp.swift in Sources */,
 				0BF81FEB2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift in Sources */,
 				0BF81FE52B5ED15C0017DF91 /* InitsAndEmuns.swift in Sources */,
 				0B5B02B32B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift in Sources */,
