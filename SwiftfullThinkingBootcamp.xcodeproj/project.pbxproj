@@ -15,6 +15,7 @@
 		0B2F78FD2B5F8DEF00016AD0 /* GridsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2F78FC2B5F8DEF00016AD0 /* GridsBootcamp.swift */; };
 		0B3CEE8B2B6FE9E3002FB591 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CEE8A2B6FE9E3002FB591 /* StateBootcamp.swift */; };
 		0B3CEE8E2B6FF0F9002FB591 /* ExtractingFunctionsAndSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CEE8D2B6FF0F9002FB591 /* ExtractingFunctionsAndSubviewsBootcamp.swift */; };
+		0B3CEE912B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CEE902B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift */; };
 		0B51617C2B52F332002913EE /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617B2B52F332002913EE /* Frame.swift */; };
 		0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */; };
 		0B5B02B32B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B02B22B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift */; };
@@ -40,6 +41,7 @@
 		0B2F78FC2B5F8DEF00016AD0 /* GridsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsBootcamp.swift; sourceTree = "<group>"; };
 		0B3CEE8A2B6FE9E3002FB591 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 		0B3CEE8D2B6FF0F9002FB591 /* ExtractingFunctionsAndSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractingFunctionsAndSubviewsBootcamp.swift; sourceTree = "<group>"; };
+		0B3CEE902B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractingViewsBootcamp.swift; sourceTree = "<group>"; };
 		0B51617B2B52F332002913EE /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
 		0B5B02AF2B4A879100C97EA8 /* SwiftfullThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfullThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,14 @@
 			path = "19-Extracting functions and Subviews";
 			sourceTree = "<group>";
 		};
+		0B3CEE8F2B6FF6C6002FB591 /* 20-Extracting Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B3CEE902B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift */,
+			);
+			path = "20-Extracting Views";
+			sourceTree = "<group>";
+		};
 		0B51617A2B52F320002913EE /* 7-Frame */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				0B5B02B12B4A879100C97EA8 /* SwiftfullThinkingBootcamp */,
+				0B5B02B22B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift */,
 				0B5B02B02B4A879100C97EA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -159,7 +170,6 @@
 		0B5B02B12B4A879100C97EA8 /* SwiftfullThinkingBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				0B5B02B22B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift */,
 				0BB5D3C62B5192E3003A45AA /* 1-Text */,
 				0BB5D3C72B5192F6003A45AA /* 2-Shapes */,
 				0BB5D3C82B5192FD003A45AA /* 3-Colors */,
@@ -179,6 +189,7 @@
 				0BD8FBCA2B66B68E00424BB6 /* 17-Button */,
 				0B3CEE892B6FE181002FB591 /* 18-State */,
 				0B3CEE8C2B6FF0B6002FB591 /* 19-Extracting functions and Subviews */,
+				0B3CEE8F2B6FF6C6002FB591 /* 20-Extracting Views */,
 				0B5B02B62B4A879200C97EA8 /* Assets.xcassets */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
 			);
@@ -352,6 +363,7 @@
 				0B3CEE8B2B6FE9E3002FB591 /* StateBootcamp.swift in Sources */,
 				0B2DD8392B51D1D1002401EB /* SystemIcons.swift in Sources */,
 				0B2DD8362B51CA84002401EB /* Gradients.swift in Sources */,
+				0B3CEE912B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift in Sources */,
 				0B3CEE8E2B6FF0F9002FB591 /* ExtractingFunctionsAndSubviewsBootcamp.swift in Sources */,
 				0B5B02C12B4AA19A00C97EA8 /* ShapesBootcamp.swift in Sources */,
 				0BD8FBC92B66B2C800424BB6 /* SafeAreaBootcamp.swift in Sources */,
