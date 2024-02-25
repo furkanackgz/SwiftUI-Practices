@@ -28,6 +28,7 @@
 		0B5B02C32B4ABAA700C97EA8 /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B02C22B4ABAA700C97EA8 /* ColorsBootcamp.swift */; };
 		0BA509382B8B2D4700546313 /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA509372B8B2D4700546313 /* TernaryOperators.swift */; };
 		0BA5093B2B8B463E00546313 /* AnimationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5093A2B8B463E00546313 /* AnimationsBootcamp.swift */; };
+		0BA5093F2B8B621F00546313 /* TransitionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5093E2B8B621F00546313 /* TransitionsBootcamp.swift */; };
 		0BD8FBC92B66B2C800424BB6 /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8FBC82B66B2C800424BB6 /* SafeAreaBootcamp.swift */; };
 		0BD8FBCC2B66B69E00424BB6 /* ButtonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8FBCB2B66B69E00424BB6 /* ButtonBootcamp.swift */; };
 		0BF81FE22B5ECF130017DF91 /* Spacer_Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE12B5ECF130017DF91 /* Spacer_Bootcamp.swift */; };
@@ -59,6 +60,7 @@
 		0B5B02C22B4ABAA700C97EA8 /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
 		0BA509372B8B2D4700546313 /* TernaryOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperators.swift; sourceTree = "<group>"; };
 		0BA5093A2B8B463E00546313 /* AnimationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsBootcamp.swift; sourceTree = "<group>"; };
+		0BA5093E2B8B621F00546313 /* TransitionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsBootcamp.swift; sourceTree = "<group>"; };
 		0BD8FBC82B66B2C800424BB6 /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
 		0BD8FBCB2B66B69E00424BB6 /* ButtonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBootcamp.swift; sourceTree = "<group>"; };
 		0BF81FE12B5ECF130017DF91 /* Spacer_Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer_Bootcamp.swift; sourceTree = "<group>"; };
@@ -208,16 +210,17 @@
 				0BF81FE32B5ED1410017DF91 /* 12-Inits and Emuns */,
 				0BF81FE62B5ED9520017DF91 /* 13-For Each */,
 				0BF81FE92B5EEF450017DF91 /* 14-Scroll View */,
-				0B2F78FB2B5F8DD400016AD0 /* 15-Grids */,
 				0BD8FBC72B66AD4A00424BB6 /* 16-Safe Area */,
 				0BD8FBCA2B66B68E00424BB6 /* 17-Button */,
+				0B2F78FB2B5F8DD400016AD0 /* 15-Grids */,
 				0B3CEE892B6FE181002FB591 /* 18-State */,
 				0B3CEE8C2B6FF0B6002FB591 /* 19-Extracting functions and Subviews */,
-				0B3CEE8F2B6FF6C6002FB591 /* 20-Extracting Views */,
 				0B0828642B73457A007E6A58 /* 21-Binding */,
 				0B0828672B7354E7007E6A58 /* 22-Condtional Statement */,
+				0B3CEE8F2B6FF6C6002FB591 /* 20-Extracting Views */,
 				0BA509362B8B2D1E00546313 /* 23-Ternary Operators */,
 				0BA509392B8B462000546313 /* 24-Animations */,
+				0BA5093D2B8B620100546313 /* 25-Transitions */,
 				0B5B02B62B4A879200C97EA8 /* Assets.xcassets */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
 			);
@@ -246,6 +249,14 @@
 				0BA5093A2B8B463E00546313 /* AnimationsBootcamp.swift */,
 			);
 			path = "24-Animations";
+			sourceTree = "<group>";
+		};
+		0BA5093D2B8B620100546313 /* 25-Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				0BA5093E2B8B621F00546313 /* TransitionsBootcamp.swift */,
+			);
+			path = "25-Transitions";
 			sourceTree = "<group>";
 		};
 		0BB5D3C62B5192E3003A45AA /* 1-Text */ = {
@@ -409,6 +420,7 @@
 				0B3CEE8B2B6FE9E3002FB591 /* StateBootcamp.swift in Sources */,
 				0B2DD8392B51D1D1002401EB /* SystemIcons.swift in Sources */,
 				0B2DD8362B51CA84002401EB /* Gradients.swift in Sources */,
+				0BA5093F2B8B621F00546313 /* TransitionsBootcamp.swift in Sources */,
 				0B3CEE912B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift in Sources */,
 				0B3CEE8E2B6FF0F9002FB591 /* ExtractingFunctionsAndSubviewsBootcamp.swift in Sources */,
 				0B5B02C12B4AA19A00C97EA8 /* ShapesBootcamp.swift in Sources */,
