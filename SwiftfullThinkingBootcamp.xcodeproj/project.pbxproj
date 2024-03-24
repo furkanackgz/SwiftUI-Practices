@@ -58,6 +58,7 @@
 		0BF81FE52B5ED15C0017DF91 /* InitsAndEmuns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */; };
 		0BF81FE82B5EDDB90017DF91 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE72B5EDDB90017DF91 /* ForEachBootcamp.swift */; };
 		0BF81FEB2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FEA2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift */; };
+		0BFF07A02BB0443500C892DB /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFF079F2BB0443500C892DB /* AppStorageBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +114,7 @@
 		0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitsAndEmuns.swift; sourceTree = "<group>"; };
 		0BF81FE72B5EDDB90017DF91 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		0BF81FEA2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
+		0BFF079F2BB0443500C892DB /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +324,7 @@
 				0B3269BB2BAEFD13004FE1FB /* 46-Custom Model */,
 				0B3269BE2BAF179C004FE1FB /* 47-State and Observed Object */,
 				0B3269C12BAF2870004FE1FB /* 48-Environment Object */,
+				0BFF079E2BB0441600C892DB /* 49-AppStorage */,
 				0B5B02B62B4A879200C97EA8 /* Assets.xcassets */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
 			);
@@ -592,6 +595,14 @@
 			path = "14-Scroll View";
 			sourceTree = "<group>";
 		};
+		0BFF079E2BB0441600C892DB /* 49-AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				0BFF079F2BB0443500C892DB /* AppStorageBootcamp.swift */,
+			);
+			path = "49-AppStorage";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -694,6 +705,7 @@
 				0BD8FBC92B66B2C800424BB6 /* SafeAreaBootcamp.swift in Sources */,
 				0BEC4D822B98FD7F00487064 /* TextEditorBootcamp.swift in Sources */,
 				0B5B02C32B4ABAA700C97EA8 /* ColorsBootcamp.swift in Sources */,
+				0BFF07A02BB0443500C892DB /* AppStorageBootcamp.swift in Sources */,
 				0B9120282B9B2BBD0086E593 /* PickerBootcamp.swift in Sources */,
 				0B0828662B734591007E6A58 /* BindingBootcamp.swift in Sources */,
 				0B7205992B937950006B6BB9 /* ListBootcamp.swift in Sources */,
