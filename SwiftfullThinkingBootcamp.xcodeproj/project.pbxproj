@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B0457DF2C1F286D00E341EF /* TextSelectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0457DE2C1F286D00E341EF /* TextSelectionBootcamp.swift */; };
+		0B051D742C205D2E00C7802E /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B051D732C205D2E00C7802E /* ButtonStylesBootcamp.swift */; };
 		0B072BD22B54340000242201 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B072BD12B54340000242201 /* Stacks.swift */; };
 		0B072BD52B543ED000242201 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B072BD42B543ED000242201 /* Padding.swift */; };
 		0B0828662B734591007E6A58 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0828652B734591007E6A58 /* BindingBootcamp.swift */; };
@@ -69,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		0B0457DE2C1F286D00E341EF /* TextSelectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBootcamp.swift; sourceTree = "<group>"; };
+		0B051D732C205D2E00C7802E /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
 		0B072BD12B54340000242201 /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 		0B072BD42B543ED000242201 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		0B0828652B734591007E6A58 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
@@ -146,6 +148,14 @@
 				0B0457DE2C1F286D00E341EF /* TextSelectionBootcamp.swift */,
 			);
 			path = "53-Text Selection";
+			sourceTree = "<group>";
+		};
+		0B051D722C205D0800C7802E /* 54-Button Styles */ = {
+			isa = PBXGroup;
+			children = (
+				0B051D732C205D2E00C7802E /* ButtonStylesBootcamp.swift */,
+			);
+			path = "54-Button Styles";
 			sourceTree = "<group>";
 		};
 		0B072BD02B5433F100242201 /* 9-Stacks */ = {
@@ -357,6 +367,7 @@
 				0B9D5E272C1E17F00021597F /* 51-Async Image */,
 				0B9D5E2A2C1E1D860021597F /* 52-Background Materials */,
 				0B0457DD2C1F285000E341EF /* 53-Text Selection */,
+				0B051D722C205D0800C7802E /* 54-Button Styles */,
 				0B5B02B62B4A879200C97EA8 /* Assets.xcassets */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
 			);
@@ -768,6 +779,7 @@
 				0B3269C32BAF288B004FE1FB /* EnvironmentObjectBootcamp.swift in Sources */,
 				0B2DD8362B51CA84002401EB /* Gradients.swift in Sources */,
 				0B80D2FE2B964BAB00376FF0 /* AlertBootcamp.swift in Sources */,
+				0B051D742C205D2E00C7802E /* ButtonStylesBootcamp.swift in Sources */,
 				0BA5093F2B8B621F00546313 /* TransitionsBootcamp.swift in Sources */,
 				0B3269BD2BAEFD38004FE1FB /* CustomModelBootcamp.swift in Sources */,
 				0BA2A83E2B9DF4B800F14E94 /* TapGestureBootcamp.swift in Sources */,
