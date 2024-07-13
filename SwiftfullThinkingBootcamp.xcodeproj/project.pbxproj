@@ -33,6 +33,7 @@
 		0B5B02BA2B4A879200C97EA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5B02B92B4A879200C97EA8 /* Preview Assets.xcassets */; };
 		0B5B02C12B4AA19A00C97EA8 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B02C02B4AA19A00C97EA8 /* ShapesBootcamp.swift */; };
 		0B5B02C32B4ABAA700C97EA8 /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B02C22B4ABAA700C97EA8 /* ColorsBootcamp.swift */; };
+		0B6559402C429BD700B82F16 /* ContentUnavaliableViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65593F2C429BD700B82F16 /* ContentUnavaliableViewBootcamp.swift */; };
 		0B6ED5542BB16AF500B29ABE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6ED5532BB16AF500B29ABE /* OnboardingView.swift */; };
 		0B7205992B937950006B6BB9 /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7205982B937950006B6BB9 /* ListBootcamp.swift */; };
 		0B755D612B8FC2F6004B57EC /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B755D602B8FC2F6004B57EC /* NavigationViewBootcamp.swift */; };
@@ -110,6 +111,7 @@
 		0B5B02B92B4A879200C97EA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B5B02C02B4AA19A00C97EA8 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		0B5B02C22B4ABAA700C97EA8 /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
+		0B65593F2C429BD700B82F16 /* ContentUnavaliableViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavaliableViewBootcamp.swift; sourceTree = "<group>"; };
 		0B6ED5532BB16AF500B29ABE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		0B7205982B937950006B6BB9 /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		0B755D602B8FC2F6004B57EC /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
@@ -410,6 +412,7 @@
 				0BE781CC2C2486F000EC05E6 /* 66-AnyLayout */,
 				0BE781CF2C248BF600EC05E6 /* 67-ViewThatFits */,
 				0BD82EE92C26B5F2008E6F96 /* 68-NavigationSplitView */,
+				0BE533C62C429B9100A10C36 /* 69-ContentUnavaliableView */,
 				0B5B02B62B4A879200C97EA8 /* Assets.xcassets */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
 			);
@@ -680,6 +683,14 @@
 				0BD8FBCB2B66B69E00424BB6 /* ButtonBootcamp.swift */,
 			);
 			path = "17-Button";
+			sourceTree = "<group>";
+		};
+		0BE533C62C429B9100A10C36 /* 69-ContentUnavaliableView */ = {
+			isa = PBXGroup;
+			children = (
+				0B65593F2C429BD700B82F16 /* ContentUnavaliableViewBootcamp.swift */,
+			);
+			path = "69-ContentUnavaliableView";
 			sourceTree = "<group>";
 		};
 		0BE62AC22C22D9F600061C8A /* 57-Focus State */ = {
@@ -977,6 +988,7 @@
 				0B2F78FD2B5F8DEF00016AD0 /* GridsBootcamp.swift in Sources */,
 				0BF81FEB2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift in Sources */,
 				0BE781BC2C243AE600EC05E6 /* ResizableSheetsBootcamp.swift in Sources */,
+				0B6559402C429BD700B82F16 /* ContentUnavaliableViewBootcamp.swift in Sources */,
 				0B91202B2B9B351A0086E593 /* ColorPickerBootcamp.swift in Sources */,
 				0BA509382B8B2D4700546313 /* TernaryOperators.swift in Sources */,
 				0BE781D12C248E8700EC05E6 /* ViewThatFitsBootcamp.swift in Sources */,
