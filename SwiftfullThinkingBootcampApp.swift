@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftfullThinkingBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            SubmitButtonBootcamp()
+            NavigationStack {
+                ToDoListView()
+            }
         }
     }
 }
