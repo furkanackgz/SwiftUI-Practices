@@ -9,17 +9,19 @@ import SwiftUI
 
 struct ToDoListRowView: View {
     
-    @State var listItem: String
+    @State var listItem: ItemModel
     
     var body: some View {
-        Label(listItem, systemImage: "checkmark.circle")
-            .listItemTint(.green)
-            .font(.headline)
-            .fontDesign(.serif)
-            .listRowSeparatorTint(.orange, edges: .all)
+        Label(listItem.title,
+              systemImage: listItem.isCompleted ? "checkmark.circle" : "circle")
+        .listItemTint(listItem.isCompleted ? .green : .gray)
+        .font(.headline)
+        .fontDesign(.serif)
+        .listRowSeparatorTint(.orange, edges: .all)
     }
 }
 
 #Preview {
-    ToDoListRowView(listItem: "This is the first item.")
+    ToDoListRowView(listItem: .init(title: "This is the first item",
+                                    isCompleted: false))
 }

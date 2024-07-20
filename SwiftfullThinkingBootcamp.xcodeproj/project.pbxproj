@@ -15,6 +15,7 @@
 		0B0828692B735505007E6A58 /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0828682B735505007E6A58 /* ConditionalBootcamp.swift */; };
 		0B13C9CF2B9DE5D100984A6C /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13C9CE2B9DE5D100984A6C /* OnAppearBootcamp.swift */; };
 		0B200DF72C458DCC00BFDD93 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B200DF62C458DCC00BFDD93 /* ToDoListView.swift */; };
+		0B2B1A572C4BD77B001927B7 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B1A562C4BD77B001927B7 /* ItemModel.swift */; };
 		0B2DD8362B51CA84002401EB /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD8352B51CA84002401EB /* Gradients.swift */; };
 		0B2DD8392B51D1D1002401EB /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD8382B51D1D1002401EB /* SystemIcons.swift */; };
 		0B2DD83C2B51DA23002401EB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD83B2B51DA23002401EB /* Images.swift */; };
@@ -97,6 +98,7 @@
 		0B0828682B735505007E6A58 /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
 		0B13C9CE2B9DE5D100984A6C /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
 		0B200DF62C458DCC00BFDD93 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		0B2B1A562C4BD77B001927B7 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		0B2DD8352B51CA84002401EB /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		0B2DD8382B51D1D1002401EB /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
 		0B2DD83B2B51DA23002401EB /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
@@ -334,6 +336,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		0B2B1A552C4BD76B001927B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B1A562C4BD77B001927B7 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0B2DD8372B51D1BE002401EB /* 5-SystemIcons */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,6 +427,7 @@
 		0B4F6B202C45BB4900747E5E /* ListView */ = {
 			isa = PBXGroup;
 			children = (
+				0B2B1A552C4BD76B001927B7 /* Model */,
 				0B200DF42C458DB800BFDD93 /* View */,
 			);
 			path = ListView;
@@ -1056,6 +1067,7 @@
 				0B6ED5542BB16AF500B29ABE /* OnboardingView.swift in Sources */,
 				0BC7CA042B8B935A00E3AE5F /* SheetVsTransitionVsAnimation.swift in Sources */,
 				0B91203A2B9D9D670086E593 /* AdaptingDarkMode.swift in Sources */,
+				0B2B1A572C4BD77B001927B7 /* ItemModel.swift in Sources */,
 				0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */,
 				0BEB1BE02C209E1100255BF0 /* BadgesBootcamp.swift in Sources */,
 				0BE781C82C245DEA00EC05E6 /* MenuBootcamp.swift in Sources */,

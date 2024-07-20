@@ -9,14 +9,14 @@ import SwiftUI
 
 struct ToDoListView: View {
     
-    @State var listItems: [String] = [
-        "This is the first item",
-        "This is the second item",
-        "This is the third item"
+    @State var listItems: [ItemModel] = [
+        .init(title: "This is the first item", isCompleted: false),
+        .init(title: "This is the second item", isCompleted: true),
+        .init(title: "This is the third item", isCompleted: false)
     ]
     
     var body: some View {
-        List(listItems, id: \.self) { listItem in
+        List(listItems) { listItem in
             ToDoListRowView(listItem: listItem)
         }
         .listStyle(.insetGrouped)
