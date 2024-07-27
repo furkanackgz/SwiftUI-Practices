@@ -10,6 +10,11 @@ import SwiftUI
 struct ToDoAddView: View {
     
     @State private var textFieldText: String = ""
+    @State private var alertTitle: String = ""
+    @State private var showAlert: Bool =  false
+    @Environment(\.dismiss) var dismiss
+    
+    @ObservedObject var listService: ListService
     
     var body: some View {
         ScrollView {
@@ -20,6 +25,9 @@ struct ToDoAddView: View {
             .padding()
         }
         .navigationTitle("Add an Item ✏️")
+        .alert(alertTitle, isPresented: $showAlert) {
+            Button("Ok") { }
+        }
     }
 }
 
@@ -34,9 +42,9 @@ private extension ToDoAddView {
     }
     
     var saveButton: some View {
-        Button(action: {
-            // TODO: Save action
-        }, label: {
+        Button {
+            saveButtonAction()
+        } label: {
             Text("Save".uppercased())
                 .font(.headline)
                 .foregroundStyle(.white)
@@ -44,12 +52,25 @@ private extension ToDoAddView {
                 .frame(maxWidth: .infinity)
                 .background(.tint)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
-        })
+        }
+    }
+}
+
+// MARK: Methods
+private extension ToDoAddView {
+    func saveButtonAction() {
+        if listService.checkIfItemTileIsAppropriate(textFieldText) {
+            listService.createItemAndAddToList(title: textFieldText, isCompleted: false)
+            dismiss()
+        } else {
+            alertTitle = "Please type at least 3 chracter long! ☹️"
+            showAlert = true
+        }
     }
 }
 
 #Preview {
     NavigationStack {
-        ToDoAddView()
+        ToDoAddView(listService: ListService())
     }
 }

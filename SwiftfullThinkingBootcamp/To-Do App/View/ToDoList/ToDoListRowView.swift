@@ -9,12 +9,14 @@ import SwiftUI
 
 struct ToDoListRowView: View {
     
-    @State var listItem: ItemModel
+    var listItem: ListItemModel
     
     var body: some View {
-        Label(listItem.title,
-              systemImage: listItem.isCompleted ? "checkmark.circle" : "circle")
-        .listItemTint(listItem.isCompleted ? .green : .gray)
+        HStack {
+            Image(systemName: listItem.isCompleted ? "checkmark.circle" : "circle")
+                .foregroundStyle(listItem.isCompleted ? .green : .gray)
+            Text(listItem.title)
+        }
         .font(.headline)
         .fontDesign(.serif)
         .listRowSeparatorTint(.orange, edges: .all)

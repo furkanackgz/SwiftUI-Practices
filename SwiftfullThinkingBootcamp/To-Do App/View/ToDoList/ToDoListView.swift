@@ -9,15 +9,18 @@ import SwiftUI
 
 struct ToDoListView: View {
     
-    @State var listItems: [ItemModel] = [
-        .init(title: "This is the first item", isCompleted: false),
-        .init(title: "This is the second item", isCompleted: true),
-        .init(title: "This is the third item", isCompleted: false)
-    ]
+    @StateObject private var listService: ListService = ListService()
     
     var body: some View {
-        List(listItems) { listItem in
-            ToDoListRowView(listItem: listItem)
+        List {
+            ForEach(listService.listItems) { listItem in
+                ToDoListRowView(listItem: listItem)
+                    .onTapGesture {
+                        listService.updateIsCompleteState(of: listItem)
+                    }
+            }
+            .onDelete(perform: listService.deleteItemAt)
+            .onMove(perform: listService.moveItems)
         }
         .listStyle(.insetGrouped)
         .navigationTitle("To-Do List 📝")
@@ -28,18 +31,16 @@ struct ToDoListView: View {
             }
             
             ToolbarItem(placement: .topBarTrailing) {
-                NavigationLink(value: "Furkan") {
+                NavigationLink {
+                    ToDoAddView(listService: listService)
+                } label: {
                     Text("Add")
                         .font(.headline)
                 }
             }
         }
-        .navigationDestination(for: String.self) { _ in
-            ToDoAddView()
-        }
     }
 }
-
 
 #Preview {
     NavigationStack {
