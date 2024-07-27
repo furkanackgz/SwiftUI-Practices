@@ -19,8 +19,8 @@ struct ToDoListView: View {
                         listService.updateIsCompleteState(of: listItem)
                     }
             }
-            .onDelete(perform: listService.deleteItemAt)
-            .onMove(perform: listService.moveItems)
+            .onDelete(perform: listService.deleteItem)
+            .onMove(perform: listService.moveItem)
         }
         .listStyle(.insetGrouped)
         .navigationTitle("To-Do List 📝")

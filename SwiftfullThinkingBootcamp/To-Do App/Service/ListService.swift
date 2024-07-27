@@ -9,18 +9,23 @@ import Foundation
 
 class ListService: ObservableObject {
     
-    @Published var listItems: [ListItemModel] = []
+    @Published var listItems: [ListItemModel] = [] {
+        didSet {
+            saveListItems()
+        }
+    }
+    private var listItemsKey: String = "listItems"
     
     init() {
-        getItems()
+        getListItems()
     }
     
-    func getItems() {
-        listItems = [
-            .init(title: "This is the first item.", isCompleted: false),
-            .init(title: "This is the second.", isCompleted: false),
-            .init(title: "Third.", isCompleted: false)
-        ]
+    func getListItems() {
+        guard 
+            let encodedListItems = UserDefaults.standard.data(forKey: listItemsKey),
+            let decodedListItems = try? JSONDecoder().decode([ListItemModel].self, from: encodedListItems)
+        else { return }
+        listItems = decodedListItems
     }
     
     func checkIfItemTileIsAppropriate(_ text: String) -> Bool {
@@ -40,11 +45,19 @@ class ListService: ObservableObject {
         }
     }
     
-    func deleteItemAt(_ indexSet: IndexSet) {
+    func deleteItem(at indexSet: IndexSet) {
         listItems.remove(atOffsets: indexSet)
     }
     
-    func moveItems(from fromOffsets: IndexSet, to toOffset: Int) {
+    func moveItem(from fromOffsets: IndexSet, to toOffset: Int) {
         listItems.move(fromOffsets: fromOffsets, toOffset: toOffset)
+    }
+}
+
+private extension ListService {
+    func saveListItems() {
+        if let encodedListItems = try? JSONEncoder().encode(listItems) {
+            UserDefaults.standard.setValue(encodedListItems, forKey: listItemsKey)
+        }
     }
 }
