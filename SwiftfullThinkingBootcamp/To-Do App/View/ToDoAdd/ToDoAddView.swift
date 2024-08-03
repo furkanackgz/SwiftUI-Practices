@@ -14,7 +14,7 @@ struct ToDoAddView: View {
     @State private var showAlert: Bool =  false
     @Environment(\.dismiss) var dismiss
     
-    @ObservedObject var listService: ListService
+    @EnvironmentObject var listService: ListService
     
     var body: some View {
         ScrollView {
@@ -71,6 +71,7 @@ private extension ToDoAddView {
 
 #Preview {
     NavigationStack {
-        ToDoAddView(listService: ListService())
+        ToDoAddView()
     }
+    .environmentObject(ListService())
 }

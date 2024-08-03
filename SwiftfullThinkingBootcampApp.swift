@@ -9,11 +9,15 @@ import SwiftUI
 
 @main
 struct SwiftfullThinkingBootcampApp: App {
+    
+    @StateObject private var listService: ListService = ListService()
+    
     var body: some Scene {
         WindowGroup {
             NavigationStack {
                 ToDoListView()
             }
+            .environmentObject(listService)
         }
     }
 }

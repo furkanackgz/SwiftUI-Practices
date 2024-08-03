@@ -87,6 +87,7 @@
 		0BF81FE52B5ED15C0017DF91 /* InitsAndEmuns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */; };
 		0BF81FE82B5EDDB90017DF91 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE72B5EDDB90017DF91 /* ForEachBootcamp.swift */; };
 		0BF81FEB2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FEA2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift */; };
+		0BFC3AE92C5E4D2700212614 /* NoListDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC3AE82C5E4D2700212614 /* NoListDataView.swift */; };
 		0BFF07A02BB0443500C892DB /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFF079F2BB0443500C892DB /* AppStorageBootcamp.swift */; };
 /* End PBXBuildFile section */
 
@@ -172,6 +173,7 @@
 		0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitsAndEmuns.swift; sourceTree = "<group>"; };
 		0BF81FE72B5EDDB90017DF91 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		0BF81FEA2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
+		0BFC3AE82C5E4D2700212614 /* NoListDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoListDataView.swift; sourceTree = "<group>"; };
 		0BFF079F2BB0443500C892DB /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -415,6 +417,7 @@
 			children = (
 				0B4E91AA2C541CD40079FB5B /* ToDoList */,
 				0B4E91AB2C541CEA0079FB5B /* ToDoAdd */,
+				0BFC3AE72C5E4D0500212614 /* NoListDataView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -938,6 +941,14 @@
 			path = "14-Scroll View";
 			sourceTree = "<group>";
 		};
+		0BFC3AE72C5E4D0500212614 /* NoListDataView */ = {
+			isa = PBXGroup;
+			children = (
+				0BFC3AE82C5E4D2700212614 /* NoListDataView.swift */,
+			);
+			path = NoListDataView;
+			sourceTree = "<group>";
+		};
 		0BFF079E2BB0441600C892DB /* 49-AppStorage */ = {
 			isa = PBXGroup;
 			children = (
@@ -1045,6 +1056,7 @@
 				0BE781BF2C2444DB00EC05E6 /* SafeAreaInsets.swift in Sources */,
 				0BA5093F2B8B621F00546313 /* TransitionsBootcamp.swift in Sources */,
 				0BE62ACD2C23194300061C8A /* ToolBarBootcamp.swift in Sources */,
+				0BFC3AE92C5E4D2700212614 /* NoListDataView.swift in Sources */,
 				0B3269BD2BAEFD38004FE1FB /* CustomModelBootcamp.swift in Sources */,
 				0B4F6B242C45BBA300747E5E /* ToDoAddView.swift in Sources */,
 				0BA2A83E2B9DF4B800F14E94 /* TapGestureBootcamp.swift in Sources */,

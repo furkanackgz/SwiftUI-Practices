@@ -9,20 +9,18 @@ import SwiftUI
 
 struct ToDoListView: View {
     
-    @StateObject private var listService: ListService = ListService()
+    @EnvironmentObject var listService: ListService
     
     var body: some View {
-        List {
-            ForEach(listService.listItems) { listItem in
-                ToDoListRowView(listItem: listItem)
-                    .onTapGesture {
-                        listService.updateIsCompleteState(of: listItem)
-                    }
+        ZStack {
+            if listService.listItems.count > 0 {
+                toDoList
+                    .transition(.opacity.animation(.easeIn))
+            } else {
+                NoListDataView()
+                    .transition(.opacity.animation(.easeIn))
             }
-            .onDelete(perform: listService.deleteItem)
-            .onMove(perform: listService.moveItem)
         }
-        .listStyle(.insetGrouped)
         .navigationTitle("To-Do List 📝")
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
@@ -32,7 +30,7 @@ struct ToDoListView: View {
             
             ToolbarItem(placement: .topBarTrailing) {
                 NavigationLink {
-                    ToDoAddView(listService: listService)
+                    ToDoAddView()
                 } label: {
                     Text("Add")
                         .font(.headline)
@@ -42,8 +40,28 @@ struct ToDoListView: View {
     }
 }
 
+// MARK: Components
+private extension ToDoListView {
+    var toDoList: some View {
+        List {
+            ForEach(listService.listItems) { listItem in
+                ToDoListRowView(listItem: listItem)
+                    .onTapGesture {
+                        withAnimation(.linear) {
+                            listService.updateIsCompleteState(of: listItem)
+                        }
+                    }
+            }
+            .onDelete(perform: listService.deleteItem)
+            .onMove(perform: listService.moveItem)
+        }
+        .listStyle(.insetGrouped)
+    }
+}
+
 #Preview {
     NavigationStack {
         ToDoListView()
     }
+    .environmentObject(ListService())
 }
