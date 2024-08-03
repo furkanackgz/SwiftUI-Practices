@@ -19,7 +19,7 @@ struct ToDoListRowView: View {
         }
         .font(.headline)
         .fontDesign(.serif)
-        .listRowSeparatorTint(.orange, edges: .all)
+        .listRowSeparatorTint(.accentColor, edges: .all)
     }
 }
 

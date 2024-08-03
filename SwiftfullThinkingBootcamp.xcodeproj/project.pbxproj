@@ -417,7 +417,7 @@
 			children = (
 				0B4E91AA2C541CD40079FB5B /* ToDoList */,
 				0B4E91AB2C541CEA0079FB5B /* ToDoAdd */,
-				0BFC3AE72C5E4D0500212614 /* NoListDataView */,
+				0BFC3AE72C5E4D0500212614 /* NoListData */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -941,12 +941,12 @@
 			path = "14-Scroll View";
 			sourceTree = "<group>";
 		};
-		0BFC3AE72C5E4D0500212614 /* NoListDataView */ = {
+		0BFC3AE72C5E4D0500212614 /* NoListData */ = {
 			isa = PBXGroup;
 			children = (
 				0BFC3AE82C5E4D2700212614 /* NoListDataView.swift */,
 			);
-			path = NoListDataView;
+			path = NoListData;
 			sourceTree = "<group>";
 		};
 		0BFF079E2BB0441600C892DB /* 49-AppStorage */ = {

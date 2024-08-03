@@ -10,6 +10,8 @@ import SwiftUI
 struct NoListDataView: View {
     
     @State private var animate: Bool = false
+    private var accentColor: Color = .accentColor
+    private var secondaryAccentColor: Color = .secondaryAccent
     
     var body: some View {
         VStack(spacing: 10) {
@@ -20,6 +22,7 @@ struct NoListDataView: View {
             Spacer()
             Spacer()
         }
+        .frame(maxWidth: 450)
         .multilineTextAlignment(.center)
         .padding(30)
         .onAppear(perform: startAnimation)
@@ -49,7 +52,7 @@ private extension NoListDataView {
                 .padding()
                 .padding(.horizontal, animate ? 30 : 10)
                 .background(
-                    Color(animate ? Color.red : Color.purple)
+                    Color(animate ? accentColor : secondaryAccentColor)
                     .clipShape(
                         RoundedRectangle(cornerRadius: animate ? 12 : 8)
                     )
@@ -57,7 +60,7 @@ private extension NoListDataView {
                 .scaleEffect(animate ? 1.1 : 1.0)
                 .offset(y: animate ? -7 : 0)
                 .shadow(
-                    color: Color(animate ? Color.red.opacity(0.7) : Color.purple.opacity(0.7)),
+                    color: Color(animate ? accentColor.opacity(0.7) : secondaryAccentColor.opacity(0.7)),
                     radius: animate ? 30 : 10,
                     x: 0,
                     y: animate ? 10 : 30
@@ -70,7 +73,7 @@ private extension NoListDataView {
 private extension NoListDataView {
     func startAnimation() {
         guard animate == false else { return }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             withAnimation(
                 Animation.easeInOut(duration: 2.0)
                     .repeatForever()
