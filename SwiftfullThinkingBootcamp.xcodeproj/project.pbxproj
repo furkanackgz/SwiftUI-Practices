@@ -14,8 +14,6 @@
 		0B0828662B734591007E6A58 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0828652B734591007E6A58 /* BindingBootcamp.swift */; };
 		0B0828692B735505007E6A58 /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0828682B735505007E6A58 /* ConditionalBootcamp.swift */; };
 		0B13C9CF2B9DE5D100984A6C /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13C9CE2B9DE5D100984A6C /* OnAppearBootcamp.swift */; };
-		0B200DF72C458DCC00BFDD93 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B200DF62C458DCC00BFDD93 /* ToDoListView.swift */; };
-		0B2B1A572C4BD77B001927B7 /* ListItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B1A562C4BD77B001927B7 /* ListItemModel.swift */; };
 		0B2DD8362B51CA84002401EB /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD8352B51CA84002401EB /* Gradients.swift */; };
 		0B2DD8392B51D1D1002401EB /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD8382B51D1D1002401EB /* SystemIcons.swift */; };
 		0B2DD83C2B51DA23002401EB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD83B2B51DA23002401EB /* Images.swift */; };
@@ -27,10 +25,6 @@
 		0B3CEE8E2B6FF0F9002FB591 /* ExtractingFunctionsAndSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CEE8D2B6FF0F9002FB591 /* ExtractingFunctionsAndSubviewsBootcamp.swift */; };
 		0B3CEE912B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CEE902B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift */; };
 		0B3D72C42BB850EB002B06F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D72C32BB850EB002B06F2 /* ProfileView.swift */; };
-		0B49C5262C5E84E400348608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B49C5252C5E84E400348608 /* LaunchScreen.storyboard */; };
-		0B4E91A92C53FE800079FB5B /* ListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E91A82C53FE800079FB5B /* ListService.swift */; };
-		0B4F6B242C45BBA300747E5E /* ToDoAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4F6B232C45BBA300747E5E /* ToDoAddView.swift */; };
-		0B4F6B262C45C58700747E5E /* ToDoListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4F6B252C45C58700747E5E /* ToDoListRowView.swift */; };
 		0B51617C2B52F332002913EE /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617B2B52F332002913EE /* Frame.swift */; };
 		0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */; };
 		0B5B02B32B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B02B22B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift */; };
@@ -88,7 +82,6 @@
 		0BF81FE52B5ED15C0017DF91 /* InitsAndEmuns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */; };
 		0BF81FE82B5EDDB90017DF91 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FE72B5EDDB90017DF91 /* ForEachBootcamp.swift */; };
 		0BF81FEB2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF81FEA2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift */; };
-		0BFC3AE92C5E4D2700212614 /* NoListDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC3AE82C5E4D2700212614 /* NoListDataView.swift */; };
 		0BFF07A02BB0443500C892DB /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFF079F2BB0443500C892DB /* AppStorageBootcamp.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,8 +93,6 @@
 		0B0828652B734591007E6A58 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		0B0828682B735505007E6A58 /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
 		0B13C9CE2B9DE5D100984A6C /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
-		0B200DF62C458DCC00BFDD93 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
-		0B2B1A562C4BD77B001927B7 /* ListItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemModel.swift; sourceTree = "<group>"; };
 		0B2DD8352B51CA84002401EB /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		0B2DD8382B51D1D1002401EB /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
 		0B2DD83B2B51DA23002401EB /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
@@ -113,10 +104,6 @@
 		0B3CEE8D2B6FF0F9002FB591 /* ExtractingFunctionsAndSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractingFunctionsAndSubviewsBootcamp.swift; sourceTree = "<group>"; };
 		0B3CEE902B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractingViewsBootcamp.swift; sourceTree = "<group>"; };
 		0B3D72C32BB850EB002B06F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		0B49C5252C5E84E400348608 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0B4E91A82C53FE800079FB5B /* ListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListService.swift; sourceTree = "<group>"; };
-		0B4F6B232C45BBA300747E5E /* ToDoAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAddView.swift; sourceTree = "<group>"; };
-		0B4F6B252C45C58700747E5E /* ToDoListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListRowView.swift; sourceTree = "<group>"; };
 		0B51617B2B52F332002913EE /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
 		0B5B02AF2B4A879100C97EA8 /* SwiftfullThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfullThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,7 +162,6 @@
 		0BF81FE42B5ED15C0017DF91 /* InitsAndEmuns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitsAndEmuns.swift; sourceTree = "<group>"; };
 		0BF81FE72B5EDDB90017DF91 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		0BF81FEA2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
-		0BFC3AE82C5E4D2700212614 /* NoListDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoListDataView.swift; sourceTree = "<group>"; };
 		0BFF079F2BB0443500C892DB /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -324,16 +310,6 @@
 			path = "Beginner Level";
 			sourceTree = "<group>";
 		};
-		0B200DF32C458DAE00BFDD93 /* To-Do App */ = {
-			isa = PBXGroup;
-			children = (
-				0B4E91A32C53FB750079FB5B /* Model */,
-				0B4E91A22C53FB6F0079FB5B /* View */,
-				0B4E91A72C53FE720079FB5B /* Service */,
-			);
-			path = "To-Do App";
-			sourceTree = "<group>";
-		};
 		0B2DD8372B51D1BE002401EB /* 5-SystemIcons */ = {
 			isa = PBXGroup;
 			children = (
@@ -414,58 +390,6 @@
 			path = "Profile View";
 			sourceTree = "<group>";
 		};
-		0B49C5272C5E84EE00348608 /* LaunchScreen */ = {
-			isa = PBXGroup;
-			children = (
-				0B49C5252C5E84E400348608 /* LaunchScreen.storyboard */,
-			);
-			path = LaunchScreen;
-			sourceTree = "<group>";
-		};
-		0B4E91A22C53FB6F0079FB5B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				0B49C5272C5E84EE00348608 /* LaunchScreen */,
-				0B4E91AA2C541CD40079FB5B /* ToDoList */,
-				0B4E91AB2C541CEA0079FB5B /* ToDoAdd */,
-				0BFC3AE72C5E4D0500212614 /* NoListData */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		0B4E91A32C53FB750079FB5B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				0B2B1A562C4BD77B001927B7 /* ListItemModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0B4E91A72C53FE720079FB5B /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				0B4E91A82C53FE800079FB5B /* ListService.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		0B4E91AA2C541CD40079FB5B /* ToDoList */ = {
-			isa = PBXGroup;
-			children = (
-				0B200DF62C458DCC00BFDD93 /* ToDoListView.swift */,
-				0B4F6B252C45C58700747E5E /* ToDoListRowView.swift */,
-			);
-			path = ToDoList;
-			sourceTree = "<group>";
-		};
-		0B4E91AB2C541CEA0079FB5B /* ToDoAdd */ = {
-			isa = PBXGroup;
-			children = (
-				0B4F6B232C45BBA300747E5E /* ToDoAddView.swift */,
-			);
-			path = ToDoAdd;
-			sourceTree = "<group>";
-		};
 		0B51617A2B52F320002913EE /* 7-Frame */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,7 +428,6 @@
 			isa = PBXGroup;
 			children = (
 				0B200DF12C458BE700BFDD93 /* Beginner Level */,
-				0B200DF32C458DAE00BFDD93 /* To-Do App */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
 			);
 			path = SwiftfullThinkingBootcamp;
@@ -952,14 +875,6 @@
 			path = "14-Scroll View";
 			sourceTree = "<group>";
 		};
-		0BFC3AE72C5E4D0500212614 /* NoListData */ = {
-			isa = PBXGroup;
-			children = (
-				0BFC3AE82C5E4D2700212614 /* NoListDataView.swift */,
-			);
-			path = NoListData;
-			sourceTree = "<group>";
-		};
 		0BFF079E2BB0441600C892DB /* 49-AppStorage */ = {
 			isa = PBXGroup;
 			children = (
@@ -1026,7 +941,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B49C5262C5E84E400348608 /* LaunchScreen.storyboard in Resources */,
 				0B5B02BA2B4A879200C97EA8 /* Preview Assets.xcassets in Resources */,
 				0B5B02B72B4A879200C97EA8 /* Assets.xcassets in Resources */,
 			);
@@ -1068,12 +982,9 @@
 				0BE781BF2C2444DB00EC05E6 /* SafeAreaInsets.swift in Sources */,
 				0BA5093F2B8B621F00546313 /* TransitionsBootcamp.swift in Sources */,
 				0BE62ACD2C23194300061C8A /* ToolBarBootcamp.swift in Sources */,
-				0BFC3AE92C5E4D2700212614 /* NoListDataView.swift in Sources */,
 				0B3269BD2BAEFD38004FE1FB /* CustomModelBootcamp.swift in Sources */,
-				0B4F6B242C45BBA300747E5E /* ToDoAddView.swift in Sources */,
 				0BA2A83E2B9DF4B800F14E94 /* TapGestureBootcamp.swift in Sources */,
 				0B3269C02BAF17D1004FE1FB /* ViewModelBootcamp.swift in Sources */,
-				0B4E91A92C53FE800079FB5B /* ListService.swift in Sources */,
 				0B3CEE912B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift in Sources */,
 				0BC7CA012B8B882400E3AE5F /* SheetBootcamp.swift in Sources */,
 				0B3CEE8E2B6FF0F9002FB591 /* ExtractingFunctionsAndSubviewsBootcamp.swift in Sources */,
@@ -1095,13 +1006,11 @@
 				0B6ED5542BB16AF500B29ABE /* OnboardingView.swift in Sources */,
 				0BC7CA042B8B935A00E3AE5F /* SheetVsTransitionVsAnimation.swift in Sources */,
 				0B91203A2B9D9D670086E593 /* AdaptingDarkMode.swift in Sources */,
-				0B2B1A572C4BD77B001927B7 /* ListItemModel.swift in Sources */,
 				0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */,
 				0BEB1BE02C209E1100255BF0 /* BadgesBootcamp.swift in Sources */,
 				0BE781C82C245DEA00EC05E6 /* MenuBootcamp.swift in Sources */,
 				0B9120342B9C98800086E593 /* SliderBootcamp.swift in Sources */,
 				0BD82EEB2C26B639008E6F96 /* NavigationSplitViewBootcamp.swift in Sources */,
-				0B4F6B262C45C58700747E5E /* ToDoListRowView.swift in Sources */,
 				0B072BD52B543ED000242201 /* Padding.swift in Sources */,
 				0B9120312B9C91BE0086E593 /* StepperBootcamp.swift in Sources */,
 				0BF81FE82B5EDDB90017DF91 /* ForEachBootcamp.swift in Sources */,
@@ -1113,7 +1022,6 @@
 				0BE781BC2C243AE600EC05E6 /* ResizableSheetsBootcamp.swift in Sources */,
 				0B6559402C429BD700B82F16 /* ContentUnavaliableViewBootcamp.swift in Sources */,
 				0B91202B2B9B351A0086E593 /* ColorPickerBootcamp.swift in Sources */,
-				0B200DF72C458DCC00BFDD93 /* ToDoListView.swift in Sources */,
 				0BA509382B8B2D4700546313 /* TernaryOperators.swift in Sources */,
 				0BE781D12C248E8700EC05E6 /* ViewThatFitsBootcamp.swift in Sources */,
 				0BE62AC42C22DA1F00061C8A /* FocusStateBootcamp.swift in Sources */,
@@ -1255,7 +1163,6 @@
 				DEVELOPMENT_TEAM = DM7SGDQ3NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "To-Do";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1286,7 +1193,6 @@
 				DEVELOPMENT_TEAM = DM7SGDQ3NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "To-Do";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
