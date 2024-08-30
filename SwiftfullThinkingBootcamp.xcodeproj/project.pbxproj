@@ -54,6 +54,7 @@
 		0BA509382B8B2D4700546313 /* TernaryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA509372B8B2D4700546313 /* TernaryOperators.swift */; };
 		0BA5093B2B8B463E00546313 /* AnimationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5093A2B8B463E00546313 /* AnimationsBootcamp.swift */; };
 		0BA5093F2B8B621F00546313 /* TransitionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5093E2B8B621F00546313 /* TransitionsBootcamp.swift */; };
+		0BA6FC782C824EB90013250D /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA6FC772C824EB90013250D /* LongPressGesture.swift */; };
 		0BAB03E02C42B00A00AD4EBD /* ObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAB03DF2C42B00A00AD4EBD /* ObservableBootcamp.swift */; };
 		0BB00CEB2BB0C1350080B2DE /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB00CEA2BB0C1350080B2DE /* InitialView.swift */; };
 		0BB37AC32B983F7F006DE6D4 /* ActionSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB37AC22B983F7F006DE6D4 /* ActionSheetBootcamp.swift */; };
@@ -134,6 +135,7 @@
 		0BA509372B8B2D4700546313 /* TernaryOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperators.swift; sourceTree = "<group>"; };
 		0BA5093A2B8B463E00546313 /* AnimationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsBootcamp.swift; sourceTree = "<group>"; };
 		0BA5093E2B8B621F00546313 /* TransitionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsBootcamp.swift; sourceTree = "<group>"; };
+		0BA6FC772C824EB90013250D /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		0BAB03DF2C42B00A00AD4EBD /* ObservableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBootcamp.swift; sourceTree = "<group>"; };
 		0BB00CEA2BB0C1350080B2DE /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
 		0BB37AC22B983F7F006DE6D4 /* ActionSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBootcamp.swift; sourceTree = "<group>"; };
@@ -428,6 +430,7 @@
 			isa = PBXGroup;
 			children = (
 				0B200DF12C458BE700BFDD93 /* Beginner Level */,
+				0BA6FC752C824E7F0013250D /* Intermediate Level */,
 				0B5B02B82B4A879200C97EA8 /* Preview Content */,
 			);
 			path = SwiftfullThinkingBootcamp;
@@ -599,6 +602,22 @@
 				0BA5093E2B8B621F00546313 /* TransitionsBootcamp.swift */,
 			);
 			path = "25-Transitions";
+			sourceTree = "<group>";
+		};
+		0BA6FC752C824E7F0013250D /* Intermediate Level */ = {
+			isa = PBXGroup;
+			children = (
+				0BA6FC762C824EA30013250D /* 1-Long Press Gesture */,
+			);
+			path = "Intermediate Level";
+			sourceTree = "<group>";
+		};
+		0BA6FC762C824EA30013250D /* 1-Long Press Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				0BA6FC772C824EB90013250D /* LongPressGesture.swift */,
+			);
+			path = "1-Long Press Gesture";
 			sourceTree = "<group>";
 		};
 		0BAB03DE2C42AFEC00AD4EBD /* 71-Observable */ = {
@@ -991,6 +1010,7 @@
 				0B9120372B9CC4AA0086E593 /* TabViewBootcamp.swift in Sources */,
 				0BEC4D7C2B98D8E800487064 /* ContextMenuBootcamp.swift in Sources */,
 				0BEC4D7F2B98F33C00487064 /* TextFieldBootcamp.swift in Sources */,
+				0BA6FC782C824EB90013250D /* LongPressGesture.swift in Sources */,
 				0B5B02C12B4AA19A00C97EA8 /* ShapesBootcamp.swift in Sources */,
 				0B755D612B8FC2F6004B57EC /* NavigationViewBootcamp.swift in Sources */,
 				0B9D5E292C1E18640021597F /* AsyncImageBootcamp.swift in Sources */,
