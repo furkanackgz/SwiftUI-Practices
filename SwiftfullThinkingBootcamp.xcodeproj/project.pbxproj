@@ -77,6 +77,7 @@
 		0BE781CB2C247D8900EC05E6 /* PopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE781CA2C247D8900EC05E6 /* PopoverBootcamp.swift */; };
 		0BE781CE2C24870B00EC05E6 /* AnyLayoutBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE781CD2C24870B00EC05E6 /* AnyLayoutBootcamp.swift */; };
 		0BE781D12C248E8700EC05E6 /* ViewThatFitsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE781D02C248E8700EC05E6 /* ViewThatFitsBootcamp.swift */; };
+		0BE7F90C2C8DE9A300B175B0 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7F90B2C8DE9A300B175B0 /* DragGestureBootcamp2.swift */; };
 		0BEB1BDD2C2071BE00255BF0 /* SwipeActionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB1BDC2C2071BE00255BF0 /* SwipeActionsBootcamp.swift */; };
 		0BEB1BE02C209E1100255BF0 /* BadgesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB1BDF2C209E1100255BF0 /* BadgesBootcamp.swift */; };
 		0BEC4D7C2B98D8E800487064 /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC4D7B2B98D8E800487064 /* ContextMenuBootcamp.swift */; };
@@ -161,6 +162,7 @@
 		0BE781CA2C247D8900EC05E6 /* PopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverBootcamp.swift; sourceTree = "<group>"; };
 		0BE781CD2C24870B00EC05E6 /* AnyLayoutBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutBootcamp.swift; sourceTree = "<group>"; };
 		0BE781D02C248E8700EC05E6 /* ViewThatFitsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsBootcamp.swift; sourceTree = "<group>"; };
+		0BE7F90B2C8DE9A300B175B0 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		0BEB1BDC2C2071BE00255BF0 /* SwipeActionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsBootcamp.swift; sourceTree = "<group>"; };
 		0BEB1BDF2C209E1100255BF0 /* BadgesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesBootcamp.swift; sourceTree = "<group>"; };
 		0BEC4D7B2B98D8E800487064 /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				0B1662902C838CDB00A70CAA /* DragGestureBootcamp.swift */,
+				0BE7F90B2C8DE9A300B175B0 /* DragGestureBootcamp2.swift */,
 			);
 			path = "4-Drag Gesture";
 			sourceTree = "<group>";
@@ -1027,6 +1030,7 @@
 				0BE781C22C24500300EC05E6 /* GroupBootcamp.swift in Sources */,
 				0B5B02B52B4A879100C97EA8 /* ContentView.swift in Sources */,
 				0B3CEE8B2B6FE9E3002FB591 /* StateBootcamp.swift in Sources */,
+				0BE7F90C2C8DE9A300B175B0 /* DragGestureBootcamp2.swift in Sources */,
 				0B2DD8392B51D1D1002401EB /* SystemIcons.swift in Sources */,
 				0B3269C32BAF288B004FE1FB /* EnvironmentObjectBootcamp.swift in Sources */,
 				0B2DD8362B51CA84002401EB /* Gradients.swift in Sources */,
