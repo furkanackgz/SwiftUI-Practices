@@ -17,6 +17,7 @@
 		0B16628E2C837B0500A70CAA /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16628D2C837B0500A70CAA /* RotationGestureBootcamp.swift */; };
 		0B1662912C838CDB00A70CAA /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1662902C838CDB00A70CAA /* DragGestureBootcamp.swift */; };
 		0B18D9592C82B4E800AD6CB0 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B18D9582C82B4E800AD6CB0 /* MagnificationGestureBootcamp.swift */; };
+		0B2AE2042C8EE3F3003764FC /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2AE2032C8EE3F3003764FC /* ScrollViewReaderBootcamp.swift */; };
 		0B2DD8362B51CA84002401EB /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD8352B51CA84002401EB /* Gradients.swift */; };
 		0B2DD8392B51D1D1002401EB /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD8382B51D1D1002401EB /* SystemIcons.swift */; };
 		0B2DD83C2B51DA23002401EB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD83B2B51DA23002401EB /* Images.swift */; };
@@ -101,6 +102,7 @@
 		0B16628D2C837B0500A70CAA /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		0B1662902C838CDB00A70CAA /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		0B18D9582C82B4E800AD6CB0 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
+		0B2AE2032C8EE3F3003764FC /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		0B2DD8352B51CA84002401EB /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		0B2DD8382B51D1D1002401EB /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
 		0B2DD83B2B51DA23002401EB /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
@@ -343,6 +345,14 @@
 				0BAB03DE2C42AFEC00AD4EBD /* 71-Observable */,
 			);
 			path = "Beginner Level";
+			sourceTree = "<group>";
+		};
+		0B2AE2022C8EE3D8003764FC /* 5-Scroll View Reader */ = {
+			isa = PBXGroup;
+			children = (
+				0B2AE2032C8EE3F3003764FC /* ScrollViewReaderBootcamp.swift */,
+			);
+			path = "5-Scroll View Reader";
 			sourceTree = "<group>";
 		};
 		0B2DD8372B51D1BE002401EB /* 5-SystemIcons */ = {
@@ -644,6 +654,7 @@
 				0B18D9572C82B4C100AD6CB0 /* 2-Magnification Gesture */,
 				0B16628C2C837AEA00A70CAA /* 3-Rotation Gesture */,
 				0B16628F2C838CC300A70CAA /* 4-Drag Gesture */,
+				0B2AE2022C8EE3D8003764FC /* 5-Scroll View Reader */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -1022,6 +1033,7 @@
 				0BB00CEB2BB0C1350080B2DE /* InitialView.swift in Sources */,
 				0BA5093B2B8B463E00546313 /* AnimationsBootcamp.swift in Sources */,
 				0B8249D42B99AE150034DD01 /* ToggleBootcamp.swift in Sources */,
+				0B2AE2042C8EE3F3003764FC /* ScrollViewReaderBootcamp.swift in Sources */,
 				0B51617C2B52F332002913EE /* Frame.swift in Sources */,
 				0B3D72C42BB850EB002B06F2 /* ProfileView.swift in Sources */,
 				0B91203D2B9DB9E00086E593 /* DocumentationBootcamp.swift in Sources */,
