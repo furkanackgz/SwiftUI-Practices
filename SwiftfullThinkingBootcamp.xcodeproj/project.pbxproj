@@ -10,6 +10,7 @@
 		0B0162852CD4E0270046E07D /* SoundEffectsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0162842CD4E0270046E07D /* SoundEffectsBootcamp.swift */; };
 		0B0162892CD4E25E0046E07D /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B0162882CD4E25E0046E07D /* tada.mp3 */; };
 		0B01628A2CD4E25E0046E07D /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B0162872CD4E25E0046E07D /* badum.mp3 */; };
+		0B01628D2CD4EF940046E07D /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01628C2CD4EF940046E07D /* HapticsBootcamp.swift */; };
 		0B0457DF2C1F286D00E341EF /* TextSelectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0457DE2C1F286D00E341EF /* TextSelectionBootcamp.swift */; };
 		0B051D742C205D2E00C7802E /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B051D732C205D2E00C7802E /* ButtonStylesBootcamp.swift */; };
 		0B072BD22B54340000242201 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B072BD12B54340000242201 /* Stacks.swift */; };
@@ -101,6 +102,7 @@
 		0B0162842CD4E0270046E07D /* SoundEffectsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffectsBootcamp.swift; sourceTree = "<group>"; };
 		0B0162872CD4E25E0046E07D /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		0B0162882CD4E25E0046E07D /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		0B01628C2CD4EF940046E07D /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		0B0457DE2C1F286D00E341EF /* TextSelectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBootcamp.swift; sourceTree = "<group>"; };
 		0B051D732C205D2E00C7802E /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
 		0B072BD12B54340000242201 /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
@@ -216,6 +218,14 @@
 				0B0162882CD4E25E0046E07D /* tada.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		0B01628B2CD4EF5E0046E07D /* 10-Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				0B01628C2CD4EF940046E07D /* HapticsBootcamp.swift */,
+			);
+			path = "10-Haptics";
 			sourceTree = "<group>";
 		};
 		0B0457DD2C1F285000E341EF /* 53-Text Selection */ = {
@@ -713,6 +723,7 @@
 				0B8E63BF2CD3DA4500819334 /* 7-Multiple Sheets */,
 				0B8E63C22CD3E8B500819334 /* 8-Mask */,
 				0B0162832CD4DFF50046E07D /* 9-Sound Effects */,
+				0B01628B2CD4EF5E0046E07D /* 10-Haptics */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -1126,6 +1137,7 @@
 				0BEC4D7F2B98F33C00487064 /* TextFieldBootcamp.swift in Sources */,
 				0BA6FC782C824EB90013250D /* LongPressGesture.swift in Sources */,
 				0B5B02C12B4AA19A00C97EA8 /* ShapesBootcamp.swift in Sources */,
+				0B01628D2CD4EF940046E07D /* HapticsBootcamp.swift in Sources */,
 				0B755D612B8FC2F6004B57EC /* NavigationViewBootcamp.swift in Sources */,
 				0B9D5E292C1E18640021597F /* AsyncImageBootcamp.swift in Sources */,
 				0B18D9592C82B4E800AD6CB0 /* MagnificationGestureBootcamp.swift in Sources */,

@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftfullThinkingBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            GeometryReaderBootcamp()
+            HapticsBootcamp()
         }
     }
 }
