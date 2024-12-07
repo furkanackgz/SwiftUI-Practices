@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -192,6 +192,10 @@
 		0BF81FEA2B5EEF5D0017DF91 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 		0BFF079F2BB0443500C892DB /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0B8BCA1F2D0449D000C65BA7 /* 12-Hashable */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "12-Hashable"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0B5B02AC2B4A879100C97EA8 /* Frameworks */ = {
@@ -727,6 +731,7 @@
 				0B0162832CD4DFF50046E07D /* 9-Sound Effects */,
 				0B01628B2CD4EF5E0046E07D /* 10-Haptics */,
 				0BA90E462CDF71DF0003E741 /* 11-Local Notifications */,
+				0B8BCA1F2D0449D000C65BA7 /* 12-Hashable */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -1043,6 +1048,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0B8BCA1F2D0449D000C65BA7 /* 12-Hashable */,
 			);
 			name = SwiftfullThinkingBootcamp;
 			productName = SwiftfullThinkingBootcamp;
