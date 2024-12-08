@@ -14,7 +14,7 @@ struct SwiftfullThinkingBootcampApp: App {
     
     var body: some Scene {
         WindowGroup {
-            CoreDataBootcamp()
+            CoreDataMVVMBootcamp()
                 .environment(\.managedObjectContext, dataManager.container.viewContext)
         }
     }
