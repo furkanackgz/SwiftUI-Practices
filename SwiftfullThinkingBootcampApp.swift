@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SwiftfullThinkingBootcampApp: App {
+    
+    @StateObject private var dataManager = DataManager()
+    
     var body: some Scene {
         WindowGroup {
-            LocalNotificationsBootcamp()
+            CoreDataBootcamp()
+                .environment(\.managedObjectContext, dataManager.container.viewContext)
         }
     }
 }
