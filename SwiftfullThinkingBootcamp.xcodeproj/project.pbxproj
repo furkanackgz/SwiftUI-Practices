@@ -44,6 +44,7 @@
 		0B5B02BA2B4A879200C97EA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5B02B92B4A879200C97EA8 /* Preview Assets.xcassets */; };
 		0B5B02C12B4AA19A00C97EA8 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B02C02B4AA19A00C97EA8 /* ShapesBootcamp.swift */; };
 		0B5B02C32B4ABAA700C97EA8 /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B02C22B4ABAA700C97EA8 /* ColorsBootcamp.swift */; };
+		0B63D56E2D076F21002C68D4 /* BackgroundThreadsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63D56D2D076F21002C68D4 /* BackgroundThreadsBootcamp.swift */; };
 		0B6559402C429BD700B82F16 /* ContentUnavaliableViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B65593F2C429BD700B82F16 /* ContentUnavaliableViewBootcamp.swift */; };
 		0B6559432C429FE800B82F16 /* ControlGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6559422C429FE800B82F16 /* ControlGroupBootcamp.swift */; };
 		0B6ED5542BB16AF500B29ABE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6ED5532BB16AF500B29ABE /* OnboardingView.swift */; };
@@ -144,6 +145,7 @@
 		0B5B02B92B4A879200C97EA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B5B02C02B4AA19A00C97EA8 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		0B5B02C22B4ABAA700C97EA8 /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
+		0B63D56D2D076F21002C68D4 /* BackgroundThreadsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadsBootcamp.swift; sourceTree = "<group>"; };
 		0B65593F2C429BD700B82F16 /* ContentUnavaliableViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavaliableViewBootcamp.swift; sourceTree = "<group>"; };
 		0B6559422C429FE800B82F16 /* ControlGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupBootcamp.swift; sourceTree = "<group>"; };
 		0B6ED5532BB16AF500B29ABE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -551,6 +553,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0B63D56A2D076EDB002C68D4 /* 16-Background Threads */ = {
+			isa = PBXGroup;
+			children = (
+				0B63D56D2D076F21002C68D4 /* BackgroundThreadsBootcamp.swift */,
+			);
+			path = "16-Background Threads";
+			sourceTree = "<group>";
+		};
 		0B6559412C429FAD00B82F16 /* 70-Control Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -769,6 +779,7 @@
 				0B8BCA232D04555B00C65BA7 /* 13-High Order Functions */,
 				0B5A01382D05ADE400F53F06 /* 14-Core Data */,
 				0BD1779C2D05D57D00B1054D /* 15-Core Data With MVVM */,
+				0B63D56A2D076EDB002C68D4 /* 16-Background Threads */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -1193,6 +1204,7 @@
 				0B3CEE912B6FF6E1002FB591 /* ExtractingViewsBootcamp.swift in Sources */,
 				0BC7CA012B8B882400E3AE5F /* SheetBootcamp.swift in Sources */,
 				0B3CEE8E2B6FF0F9002FB591 /* ExtractingFunctionsAndSubviewsBootcamp.swift in Sources */,
+				0B63D56E2D076F21002C68D4 /* BackgroundThreadsBootcamp.swift in Sources */,
 				0B9120372B9CC4AA0086E593 /* TabViewBootcamp.swift in Sources */,
 				0B8E63C42CD3E8C400819334 /* MaskBootcamp.swift in Sources */,
 				0BEC4D7C2B98D8E800487064 /* ContextMenuBootcamp.swift in Sources */,
