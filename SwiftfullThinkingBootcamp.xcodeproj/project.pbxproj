@@ -82,6 +82,7 @@
 		0BD82EEB2C26B639008E6F96 /* NavigationSplitViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD82EEA2C26B639008E6F96 /* NavigationSplitViewBootcamp.swift */; };
 		0BD8FBC92B66B2C800424BB6 /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8FBC82B66B2C800424BB6 /* SafeAreaBootcamp.swift */; };
 		0BD8FBCC2B66B69E00424BB6 /* ButtonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8FBCB2B66B69E00424BB6 /* ButtonBootcamp.swift */; };
+		0BDA5BBD2D0A20850050C8A0 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA5BBC2D0A20850050C8A0 /* WeakSelfBootcamp.swift */; };
 		0BE62AC42C22DA1F00061C8A /* FocusStateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE62AC32C22DA1F00061C8A /* FocusStateBootcamp.swift */; };
 		0BE62AC72C22F16B00061C8A /* SubmitButtonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE62AC62C22F16B00061C8A /* SubmitButtonBootcamp.swift */; };
 		0BE62ACA2C22FE7B00061C8A /* NavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE62AC92C22FE7B00061C8A /* NavigationStackBootcamp.swift */; };
@@ -183,6 +184,7 @@
 		0BD82EEA2C26B639008E6F96 /* NavigationSplitViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewBootcamp.swift; sourceTree = "<group>"; };
 		0BD8FBC82B66B2C800424BB6 /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
 		0BD8FBCB2B66B69E00424BB6 /* ButtonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBootcamp.swift; sourceTree = "<group>"; };
+		0BDA5BBC2D0A20850050C8A0 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 		0BE62AC32C22DA1F00061C8A /* FocusStateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateBootcamp.swift; sourceTree = "<group>"; };
 		0BE62AC62C22F16B00061C8A /* SubmitButtonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButtonBootcamp.swift; sourceTree = "<group>"; };
 		0BE62AC92C22FE7B00061C8A /* NavigationStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootcamp.swift; sourceTree = "<group>"; };
@@ -780,6 +782,7 @@
 				0B5A01382D05ADE400F53F06 /* 14-Core Data */,
 				0BD1779C2D05D57D00B1054D /* 15-Core Data With MVVM */,
 				0B63D56A2D076EDB002C68D4 /* 16-Background Threads */,
+				0BDA5BBB2D0A206D0050C8A0 /* 17-Weak Self */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -920,6 +923,14 @@
 				0BD8FBCB2B66B69E00424BB6 /* ButtonBootcamp.swift */,
 			);
 			path = "17-Button";
+			sourceTree = "<group>";
+		};
+		0BDA5BBB2D0A206D0050C8A0 /* 17-Weak Self */ = {
+			isa = PBXGroup;
+			children = (
+				0BDA5BBC2D0A20850050C8A0 /* WeakSelfBootcamp.swift */,
+			);
+			path = "17-Weak Self";
 			sourceTree = "<group>";
 		};
 		0BE533C62C429B9100A10C36 /* 69-ContentUnavaliableView */ = {
@@ -1238,6 +1249,7 @@
 				0B9120342B9C98800086E593 /* SliderBootcamp.swift in Sources */,
 				0BD82EEB2C26B639008E6F96 /* NavigationSplitViewBootcamp.swift in Sources */,
 				0B072BD52B543ED000242201 /* Padding.swift in Sources */,
+				0BDA5BBD2D0A20850050C8A0 /* WeakSelfBootcamp.swift in Sources */,
 				0BD1779E2D05D59C00B1054D /* CoreDataMVVMBootcamp.swift in Sources */,
 				0B9120312B9C91BE0086E593 /* StepperBootcamp.swift in Sources */,
 				0BF81FE82B5EDDB90017DF91 /* ForEachBootcamp.swift in Sources */,
