@@ -54,6 +54,7 @@
 		0B8249D42B99AE150034DD01 /* ToggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8249D32B99AE150034DD01 /* ToggleBootcamp.swift */; };
 		0B8BCA212D0449F400C65BA7 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BCA202D0449F400C65BA7 /* HashableBootcamp.swift */; };
 		0B8BCA252D04557D00C65BA7 /* HighOrderFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BCA242D04557D00C65BA7 /* HighOrderFunctionsBootcamp.swift */; };
+		0B8E0BFA2D0F606100986BD6 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E0BF92D0F606100986BD6 /* CodableBootcamp.swift */; };
 		0B8E63BE2CD3C8C900819334 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E63BD2CD3C8C900819334 /* GeometryReaderBootcamp.swift */; };
 		0B8E63C12CD3DA6700819334 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E63C02CD3DA6700819334 /* MultipleSheetsBootcamp.swift */; };
 		0B8E63C42CD3E8C400819334 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E63C32CD3E8C400819334 /* MaskBootcamp.swift */; };
@@ -158,6 +159,7 @@
 		0B8249D32B99AE150034DD01 /* ToggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBootcamp.swift; sourceTree = "<group>"; };
 		0B8BCA202D0449F400C65BA7 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		0B8BCA242D04557D00C65BA7 /* HighOrderFunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighOrderFunctionsBootcamp.swift; sourceTree = "<group>"; };
+		0B8E0BF92D0F606100986BD6 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
 		0B8E63BD2CD3C8C900819334 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		0B8E63C02CD3DA6700819334 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		0B8E63C32CD3E8C400819334 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
@@ -631,6 +633,14 @@
 			path = "13-High Order Functions";
 			sourceTree = "<group>";
 		};
+		0B8E0BF82D0F603900986BD6 /* 20-Codable */ = {
+			isa = PBXGroup;
+			children = (
+				0B8E0BF92D0F606100986BD6 /* CodableBootcamp.swift */,
+			);
+			path = "20-Codable";
+			sourceTree = "<group>";
+		};
 		0B8E63BC2CD3C8AF00819334 /* 6-Geometry Reader */ = {
 			isa = PBXGroup;
 			children = (
@@ -789,6 +799,7 @@
 				0BDA5BBB2D0A206D0050C8A0 /* 17-Weak Self */,
 				0BDA5BBE2D0A268B0050C8A0 /* 18-Typealias */,
 				0BE4873E2D0F218400D685AF /* 19-Escaping Closure */,
+				0B8E0BF82D0F603900986BD6 /* 20-Codable */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -1257,6 +1268,7 @@
 				0B5B02C32B4ABAA700C97EA8 /* ColorsBootcamp.swift in Sources */,
 				0BFF07A02BB0443500C892DB /* AppStorageBootcamp.swift in Sources */,
 				0B9120282B9B2BBD0086E593 /* PickerBootcamp.swift in Sources */,
+				0B8E0BFA2D0F606100986BD6 /* CodableBootcamp.swift in Sources */,
 				0BE781CE2C24870B00EC05E6 /* AnyLayoutBootcamp.swift in Sources */,
 				0B0828662B734591007E6A58 /* BindingBootcamp.swift in Sources */,
 				0B5A013D2D05AE2B00F53F06 /* DataManager.swift in Sources */,
