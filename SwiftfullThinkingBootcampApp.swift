@@ -14,7 +14,7 @@ struct SwiftfullThinkingBootcampApp: App {
     
     var body: some Scene {
         WindowGroup {
-            WeakSelfBootcamp()
+            DownloadJsonWithEscaping()
                 .environment(\.managedObjectContext, dataManager.container.viewContext)
         }
     }
