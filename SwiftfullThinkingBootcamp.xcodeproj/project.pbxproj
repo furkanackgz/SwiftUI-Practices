@@ -35,6 +35,7 @@
 		0B3D72C42BB850EB002B06F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D72C32BB850EB002B06F2 /* ProfileView.swift */; };
 		0B51617C2B52F332002913EE /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617B2B52F332002913EE /* Frame.swift */; };
 		0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */; };
+		0B5560222D17026100279457 /* DownloadJSONWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5560212D17026100279457 /* DownloadJSONWithCombine.swift */; };
 		0B5A013B2D05AE0800F53F06 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A01392D05AE0800F53F06 /* DataModel.xcdatamodeld */; };
 		0B5A013D2D05AE2B00F53F06 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A013C2D05AE2B00F53F06 /* DataManager.swift */; };
 		0B5A013F2D05AEA200F53F06 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A013E2D05AEA200F53F06 /* CoreDataBootcamp.swift */; };
@@ -140,6 +141,7 @@
 		0B3D72C32BB850EB002B06F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0B51617B2B52F332002913EE /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
+		0B5560212D17026100279457 /* DownloadJSONWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONWithCombine.swift; sourceTree = "<group>"; };
 		0B5A013A2D05AE0800F53F06 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		0B5A013C2D05AE2B00F53F06 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0B5A013E2D05AEA200F53F06 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
@@ -517,6 +519,14 @@
 			path = "8-Background and Overlay";
 			sourceTree = "<group>";
 		};
+		0B5560202D17023F00279457 /* 22-Download JSON with Combine */ = {
+			isa = PBXGroup;
+			children = (
+				0B5560212D17026100279457 /* DownloadJSONWithCombine.swift */,
+			);
+			path = "22-Download JSON with Combine";
+			sourceTree = "<group>";
+		};
 		0B5A01382D05ADE400F53F06 /* 14-Core Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -803,6 +813,7 @@
 				0BE4873E2D0F218400D685AF /* 19-Escaping Closure */,
 				0B8E0BF82D0F603900986BD6 /* 20-Codable */,
 				0BE8A43B2D135C2C001456C4 /* 21-Download JSON with Escaping */,
+				0B5560202D17023F00279457 /* 22-Download JSON with Combine */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -1250,6 +1261,7 @@
 				0B051D742C205D2E00C7802E /* ButtonStylesBootcamp.swift in Sources */,
 				0B16628E2C837B0500A70CAA /* RotationGestureBootcamp.swift in Sources */,
 				0BE781BF2C2444DB00EC05E6 /* SafeAreaInsets.swift in Sources */,
+				0B5560222D17026100279457 /* DownloadJSONWithCombine.swift in Sources */,
 				0BA5093F2B8B621F00546313 /* TransitionsBootcamp.swift in Sources */,
 				0BE62ACD2C23194300061C8A /* ToolBarBootcamp.swift in Sources */,
 				0B8E63BE2CD3C8C900819334 /* GeometryReaderBootcamp.swift in Sources */,
