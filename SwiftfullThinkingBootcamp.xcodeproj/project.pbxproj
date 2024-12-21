@@ -36,6 +36,7 @@
 		0B51617C2B52F332002913EE /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617B2B52F332002913EE /* Frame.swift */; };
 		0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */; };
 		0B5560222D17026100279457 /* DownloadJSONWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5560212D17026100279457 /* DownloadJSONWithCombine.swift */; };
+		0B5560252D17295000279457 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5560242D17295000279457 /* TimerBootcamp.swift */; };
 		0B5A013B2D05AE0800F53F06 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A01392D05AE0800F53F06 /* DataModel.xcdatamodeld */; };
 		0B5A013D2D05AE2B00F53F06 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A013C2D05AE2B00F53F06 /* DataManager.swift */; };
 		0B5A013F2D05AEA200F53F06 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A013E2D05AEA200F53F06 /* CoreDataBootcamp.swift */; };
@@ -142,6 +143,7 @@
 		0B51617B2B52F332002913EE /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
 		0B5560212D17026100279457 /* DownloadJSONWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONWithCombine.swift; sourceTree = "<group>"; };
+		0B5560242D17295000279457 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 		0B5A013A2D05AE0800F53F06 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		0B5A013C2D05AE2B00F53F06 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0B5A013E2D05AEA200F53F06 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
@@ -527,6 +529,14 @@
 			path = "22-Download JSON with Combine";
 			sourceTree = "<group>";
 		};
+		0B5560232D17293F00279457 /* 23-Timer */ = {
+			isa = PBXGroup;
+			children = (
+				0B5560242D17295000279457 /* TimerBootcamp.swift */,
+			);
+			path = "23-Timer";
+			sourceTree = "<group>";
+		};
 		0B5A01382D05ADE400F53F06 /* 14-Core Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -814,6 +824,7 @@
 				0B8E0BF82D0F603900986BD6 /* 20-Codable */,
 				0BE8A43B2D135C2C001456C4 /* 21-Download JSON with Escaping */,
 				0B5560202D17023F00279457 /* 22-Download JSON with Combine */,
+				0B5560232D17293F00279457 /* 23-Timer */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -1304,6 +1315,7 @@
 				0B91203A2B9D9D670086E593 /* AdaptingDarkMode.swift in Sources */,
 				0B5A013F2D05AEA200F53F06 /* CoreDataBootcamp.swift in Sources */,
 				0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */,
+				0B5560252D17295000279457 /* TimerBootcamp.swift in Sources */,
 				0BEB1BE02C209E1100255BF0 /* BadgesBootcamp.swift in Sources */,
 				0BE781C82C245DEA00EC05E6 /* MenuBootcamp.swift in Sources */,
 				0B9120342B9C98800086E593 /* SliderBootcamp.swift in Sources */,
