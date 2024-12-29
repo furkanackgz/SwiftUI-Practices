@@ -13,6 +13,8 @@
 		0B01628D2CD4EF940046E07D /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01628C2CD4EF940046E07D /* HapticsBootcamp.swift */; };
 		0B0457DF2C1F286D00E341EF /* TextSelectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0457DE2C1F286D00E341EF /* TextSelectionBootcamp.swift */; };
 		0B051D742C205D2E00C7802E /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B051D732C205D2E00C7802E /* ButtonStylesBootcamp.swift */; };
+		0B0628602D21D1D300FF1EF3 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06285F2D21D1D300FF1EF3 /* Photo.swift */; };
+		0B0628622D21D25200FF1EF3 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0628612D21D25200FF1EF3 /* PhotoViewModel.swift */; };
 		0B072BD22B54340000242201 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B072BD12B54340000242201 /* Stacks.swift */; };
 		0B072BD52B543ED000242201 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B072BD42B543ED000242201 /* Padding.swift */; };
 		0B0828662B734591007E6A58 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0828652B734591007E6A58 /* BindingBootcamp.swift */; };
@@ -38,6 +40,8 @@
 		0B51617F2B5302FF002913EE /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */; };
 		0B5560222D17026100279457 /* DownloadJSONWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5560212D17026100279457 /* DownloadJSONWithCombine.swift */; };
 		0B5560252D17295000279457 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5560242D17295000279457 /* TimerBootcamp.swift */; };
+		0B5923D72D21D9BD0093508D /* PhotoListFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5923D62D21D9BD0093508D /* PhotoListFileManager.swift */; };
+		0B5923D92D21E0820093508D /* PhotoListNSCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5923D82D21E0820093508D /* PhotoListNSCacheManager.swift */; };
 		0B5A013B2D05AE0800F53F06 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A01392D05AE0800F53F06 /* DataModel.xcdatamodeld */; };
 		0B5A013D2D05AE2B00F53F06 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A013C2D05AE2B00F53F06 /* DataManager.swift */; };
 		0B5A013F2D05AEA200F53F06 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A013E2D05AEA200F53F06 /* CoreDataBootcamp.swift */; };
@@ -81,6 +85,11 @@
 		0BAB03E02C42B00A00AD4EBD /* ObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAB03DF2C42B00A00AD4EBD /* ObservableBootcamp.swift */; };
 		0BB00CEB2BB0C1350080B2DE /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB00CEA2BB0C1350080B2DE /* InitialView.swift */; };
 		0BB37AC32B983F7F006DE6D4 /* ActionSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB37AC22B983F7F006DE6D4 /* ActionSheetBootcamp.swift */; };
+		0BC528302D21BD7900E43D7E /* PhotoListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC5282F2D21BD7900E43D7E /* PhotoListBootcamp.swift */; };
+		0BC528322D21BDFF00E43D7E /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC528312D21BDFF00E43D7E /* PhotoListViewModel.swift */; };
+		0BC528342D21BE2900E43D7E /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC528332D21BE2900E43D7E /* PhotoModel.swift */; };
+		0BC528362D21C33D00E43D7E /* PhotoListNetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC528352D21C33D00E43D7E /* PhotoListNetworkUtility.swift */; };
+		0BC528382D21CD0600E43D7E /* PhotoListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC528372D21CD0600E43D7E /* PhotoListRow.swift */; };
 		0BC7CA012B8B882400E3AE5F /* SheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7CA002B8B882400E3AE5F /* SheetBootcamp.swift */; };
 		0BC7CA042B8B935A00E3AE5F /* SheetVsTransitionVsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7CA032B8B935A00E3AE5F /* SheetVsTransitionVsAnimation.swift */; };
 		0BCADC5C2D2151F7006CEB62 /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCADC5B2D2151F7006CEB62 /* FileManagerBootcamp.swift */; };
@@ -123,6 +132,8 @@
 		0B01628C2CD4EF940046E07D /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		0B0457DE2C1F286D00E341EF /* TextSelectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBootcamp.swift; sourceTree = "<group>"; };
 		0B051D732C205D2E00C7802E /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
+		0B06285F2D21D1D300FF1EF3 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		0B0628612D21D25200FF1EF3 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
 		0B072BD12B54340000242201 /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 		0B072BD42B543ED000242201 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		0B0828652B734591007E6A58 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
@@ -148,6 +159,8 @@
 		0B51617E2B5302FF002913EE /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
 		0B5560212D17026100279457 /* DownloadJSONWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONWithCombine.swift; sourceTree = "<group>"; };
 		0B5560242D17295000279457 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
+		0B5923D62D21D9BD0093508D /* PhotoListFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListFileManager.swift; sourceTree = "<group>"; };
+		0B5923D82D21E0820093508D /* PhotoListNSCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListNSCacheManager.swift; sourceTree = "<group>"; };
 		0B5A013A2D05AE0800F53F06 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		0B5A013C2D05AE2B00F53F06 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0B5A013E2D05AEA200F53F06 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
@@ -192,6 +205,11 @@
 		0BAB03DF2C42B00A00AD4EBD /* ObservableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBootcamp.swift; sourceTree = "<group>"; };
 		0BB00CEA2BB0C1350080B2DE /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
 		0BB37AC22B983F7F006DE6D4 /* ActionSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBootcamp.swift; sourceTree = "<group>"; };
+		0BC5282F2D21BD7900E43D7E /* PhotoListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListBootcamp.swift; sourceTree = "<group>"; };
+		0BC528312D21BDFF00E43D7E /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
+		0BC528332D21BE2900E43D7E /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		0BC528352D21C33D00E43D7E /* PhotoListNetworkUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListNetworkUtility.swift; sourceTree = "<group>"; };
+		0BC528372D21CD0600E43D7E /* PhotoListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListRow.swift; sourceTree = "<group>"; };
 		0BC7CA002B8B882400E3AE5F /* SheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBootcamp.swift; sourceTree = "<group>"; };
 		0BC7CA032B8B935A00E3AE5F /* SheetVsTransitionVsAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetVsTransitionVsAnimation.swift; sourceTree = "<group>"; };
 		0BCADC5B2D2151F7006CEB62 /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
@@ -850,6 +868,7 @@
 				0B8B83002D185EE30023893A /* 24-Subscriber */,
 				0BCADC5A2D2151E8006CEB62 /* 25-File Manager */,
 				0B4E37322D217E290049BA8C /* 26-NSCache */,
+				0BC5282A2D21BCBC00E43D7E /* 27-Downloading and Saving Photos */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -934,6 +953,54 @@
 				0B2DD8352B51CA84002401EB /* Gradients.swift */,
 			);
 			path = "4-Gradients";
+			sourceTree = "<group>";
+		};
+		0BC5282A2D21BCBC00E43D7E /* 27-Downloading and Saving Photos */ = {
+			isa = PBXGroup;
+			children = (
+				0BC5282E2D21BD3900E43D7E /* Utilities */,
+				0BC5282D2D21BD3200E43D7E /* Models */,
+				0BC5282C2D21BD2600E43D7E /* Views */,
+				0BC5282B2D21BD1200E43D7E /* ViewModels */,
+			);
+			path = "27-Downloading and Saving Photos";
+			sourceTree = "<group>";
+		};
+		0BC5282B2D21BD1200E43D7E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0BC528312D21BDFF00E43D7E /* PhotoListViewModel.swift */,
+				0B0628612D21D25200FF1EF3 /* PhotoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0BC5282C2D21BD2600E43D7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BC5282F2D21BD7900E43D7E /* PhotoListBootcamp.swift */,
+				0BC528372D21CD0600E43D7E /* PhotoListRow.swift */,
+				0B06285F2D21D1D300FF1EF3 /* Photo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BC5282D2D21BD3200E43D7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BC528332D21BE2900E43D7E /* PhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0BC5282E2D21BD3900E43D7E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0BC528352D21C33D00E43D7E /* PhotoListNetworkUtility.swift */,
+				0B5923D62D21D9BD0093508D /* PhotoListFileManager.swift */,
+				0B5923D82D21E0820093508D /* PhotoListNSCacheManager.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		0BC5F8C72B5D75C500315C1A /* 11-Spacer */ = {
@@ -1277,6 +1344,7 @@
 				0B91202E2B9C880A0086E593 /* DatePickerBootcamp.swift in Sources */,
 				0BB37AC32B983F7F006DE6D4 /* ActionSheetBootcamp.swift in Sources */,
 				0B072BD22B54340000242201 /* Stacks.swift in Sources */,
+				0BC528302D21BD7900E43D7E /* PhotoListBootcamp.swift in Sources */,
 				0BE62ACA2C22FE7B00061C8A /* NavigationStackBootcamp.swift in Sources */,
 				0B1662912C838CDB00A70CAA /* DragGestureBootcamp.swift in Sources */,
 				0B9D5E2C2C1E1DBF0021597F /* BackgroundMaterialsBootcamp.swift in Sources */,
@@ -1284,12 +1352,14 @@
 				0B0828692B735505007E6A58 /* ConditionalBootcamp.swift in Sources */,
 				0BF81FE22B5ECF130017DF91 /* Spacer_Bootcamp.swift in Sources */,
 				0BB00CEB2BB0C1350080B2DE /* InitialView.swift in Sources */,
+				0BC528322D21BDFF00E43D7E /* PhotoListViewModel.swift in Sources */,
 				0BA5093B2B8B463E00546313 /* AnimationsBootcamp.swift in Sources */,
 				0B8249D42B99AE150034DD01 /* ToggleBootcamp.swift in Sources */,
 				0B2AE2042C8EE3F3003764FC /* ScrollViewReaderBootcamp.swift in Sources */,
 				0B51617C2B52F332002913EE /* Frame.swift in Sources */,
 				0B3D72C42BB850EB002B06F2 /* ProfileView.swift in Sources */,
 				0B91203D2B9DB9E00086E593 /* DocumentationBootcamp.swift in Sources */,
+				0B5923D72D21D9BD0093508D /* PhotoListFileManager.swift in Sources */,
 				0BD8FBCC2B66B69E00424BB6 /* ButtonBootcamp.swift in Sources */,
 				0B0457DF2C1F286D00E341EF /* TextSelectionBootcamp.swift in Sources */,
 				0BE781C22C24500300EC05E6 /* GroupBootcamp.swift in Sources */,
@@ -1299,11 +1369,14 @@
 				0B3CEE8B2B6FE9E3002FB591 /* StateBootcamp.swift in Sources */,
 				0BE7F90C2C8DE9A300B175B0 /* DragGestureBootcamp2.swift in Sources */,
 				0B2DD8392B51D1D1002401EB /* SystemIcons.swift in Sources */,
+				0B5923D92D21E0820093508D /* PhotoListNSCacheManager.swift in Sources */,
 				0B3269C32BAF288B004FE1FB /* EnvironmentObjectBootcamp.swift in Sources */,
 				0B8BCA212D0449F400C65BA7 /* HashableBootcamp.swift in Sources */,
 				0B2DD8362B51CA84002401EB /* Gradients.swift in Sources */,
 				0B80D2FE2B964BAB00376FF0 /* AlertBootcamp.swift in Sources */,
 				0B051D742C205D2E00C7802E /* ButtonStylesBootcamp.swift in Sources */,
+				0BC528362D21C33D00E43D7E /* PhotoListNetworkUtility.swift in Sources */,
+				0BC528382D21CD0600E43D7E /* PhotoListRow.swift in Sources */,
 				0B16628E2C837B0500A70CAA /* RotationGestureBootcamp.swift in Sources */,
 				0BE781BF2C2444DB00EC05E6 /* SafeAreaInsets.swift in Sources */,
 				0B5560222D17026100279457 /* DownloadJSONWithCombine.swift in Sources */,
@@ -1327,6 +1400,7 @@
 				0B5B02C12B4AA19A00C97EA8 /* ShapesBootcamp.swift in Sources */,
 				0B01628D2CD4EF940046E07D /* HapticsBootcamp.swift in Sources */,
 				0B755D612B8FC2F6004B57EC /* NavigationViewBootcamp.swift in Sources */,
+				0B0628602D21D1D300FF1EF3 /* Photo.swift in Sources */,
 				0BE487402D0F21AD00D685AF /* EscapingClosureBootcamp.swift in Sources */,
 				0B9D5E292C1E18640021597F /* AsyncImageBootcamp.swift in Sources */,
 				0BDA5BC02D0A269F0050C8A0 /* TypealiasBootcamp.swift in Sources */,
@@ -1356,6 +1430,7 @@
 				0BD82EEB2C26B639008E6F96 /* NavigationSplitViewBootcamp.swift in Sources */,
 				0B072BD52B543ED000242201 /* Padding.swift in Sources */,
 				0BDA5BBD2D0A20850050C8A0 /* WeakSelfBootcamp.swift in Sources */,
+				0B0628622D21D25200FF1EF3 /* PhotoViewModel.swift in Sources */,
 				0BD1779E2D05D59C00B1054D /* CoreDataMVVMBootcamp.swift in Sources */,
 				0B9120312B9C91BE0086E593 /* StepperBootcamp.swift in Sources */,
 				0BF81FE82B5EDDB90017DF91 /* ForEachBootcamp.swift in Sources */,
@@ -1372,6 +1447,7 @@
 				0B91202B2B9B351A0086E593 /* ColorPickerBootcamp.swift in Sources */,
 				0BA509382B8B2D4700546313 /* TernaryOperators.swift in Sources */,
 				0BE781D12C248E8700EC05E6 /* ViewThatFitsBootcamp.swift in Sources */,
+				0BC528342D21BE2900E43D7E /* PhotoModel.swift in Sources */,
 				0BE62AC42C22DA1F00061C8A /* FocusStateBootcamp.swift in Sources */,
 				0BF81FE52B5ED15C0017DF91 /* InitsAndEmuns.swift in Sources */,
 				0B5B02B32B4A879100C97EA8 /* SwiftfullThinkingBootcampApp.swift in Sources */,
@@ -1517,6 +1593,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1547,6 +1624,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
