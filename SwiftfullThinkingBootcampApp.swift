@@ -14,7 +14,7 @@ struct SwiftfullThinkingBootcampApp: App {
     
     var body: some Scene {
         WindowGroup {
-            FileManagerBootcamp()
+            NSCacheBootcamp()
                 .environment(\.managedObjectContext, dataManager.container.viewContext)
         }
     }
