@@ -101,6 +101,7 @@
 		0BDA5BC02D0A269F0050C8A0 /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA5BBF2D0A269F0050C8A0 /* TypealiasBootcamp.swift */; };
 		0BDC98DA2D22BD7C00B0AA2B /* AccessibilityTextAndIconBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC98D92D22BD7C00B0AA2B /* AccessibilityTextAndIconBootcamp.swift */; };
 		0BDC98DD2D22D5AA00B0AA2B /* AccessibilityColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC98DC2D22D5AA00B0AA2B /* AccessibilityColors.swift */; };
+		0BDC98E02D22E7D100B0AA2B /* AccessibilityVoiceOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC98DF2D22E7D100B0AA2B /* AccessibilityVoiceOver.swift */; };
 		0BE487402D0F21AD00D685AF /* EscapingClosureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE4873F2D0F21AD00D685AF /* EscapingClosureBootcamp.swift */; };
 		0BE62AC42C22DA1F00061C8A /* FocusStateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE62AC32C22DA1F00061C8A /* FocusStateBootcamp.swift */; };
 		0BE62AC72C22F16B00061C8A /* SubmitButtonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE62AC62C22F16B00061C8A /* SubmitButtonBootcamp.swift */; };
@@ -223,6 +224,7 @@
 		0BDA5BBF2D0A269F0050C8A0 /* TypealiasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootcamp.swift; sourceTree = "<group>"; };
 		0BDC98D92D22BD7C00B0AA2B /* AccessibilityTextAndIconBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextAndIconBootcamp.swift; sourceTree = "<group>"; };
 		0BDC98DC2D22D5AA00B0AA2B /* AccessibilityColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColors.swift; sourceTree = "<group>"; };
+		0BDC98DF2D22E7D100B0AA2B /* AccessibilityVoiceOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityVoiceOver.swift; sourceTree = "<group>"; };
 		0BE4873F2D0F21AD00D685AF /* EscapingClosureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosureBootcamp.swift; sourceTree = "<group>"; };
 		0BE62AC32C22DA1F00061C8A /* FocusStateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateBootcamp.swift; sourceTree = "<group>"; };
 		0BE62AC62C22F16B00061C8A /* SubmitButtonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButtonBootcamp.swift; sourceTree = "<group>"; };
@@ -875,6 +877,7 @@
 				0BC5282A2D21BCBC00E43D7E /* 27-Downloading and Saving Photos */,
 				0BDC98D82D22BD1E00B0AA2B /* 28-Accessibility Text and Icon */,
 				0BDC98DB2D22D58D00B0AA2B /* 29-Accessibility Colors */,
+				0BDC98DE2D22E7B500B0AA2B /* 30-Accessibility Voice Over */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -1103,6 +1106,14 @@
 				0BDC98DC2D22D5AA00B0AA2B /* AccessibilityColors.swift */,
 			);
 			path = "29-Accessibility Colors";
+			sourceTree = "<group>";
+		};
+		0BDC98DE2D22E7B500B0AA2B /* 30-Accessibility Voice Over */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC98DF2D22E7D100B0AA2B /* AccessibilityVoiceOver.swift */,
+			);
+			path = "30-Accessibility Voice Over";
 			sourceTree = "<group>";
 		};
 		0BE4873E2D0F218400D685AF /* 19-Escaping Closure */ = {
@@ -1442,6 +1453,7 @@
 				0B7205992B937950006B6BB9 /* ListBootcamp.swift in Sources */,
 				0B0162852CD4E0270046E07D /* SoundEffectsBootcamp.swift in Sources */,
 				0B6ED5542BB16AF500B29ABE /* OnboardingView.swift in Sources */,
+				0BDC98E02D22E7D100B0AA2B /* AccessibilityVoiceOver.swift in Sources */,
 				0BC7CA042B8B935A00E3AE5F /* SheetVsTransitionVsAnimation.swift in Sources */,
 				0B91203A2B9D9D670086E593 /* AdaptingDarkMode.swift in Sources */,
 				0B5A013F2D05AEA200F53F06 /* CoreDataBootcamp.swift in Sources */,
