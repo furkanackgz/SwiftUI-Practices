@@ -75,6 +75,7 @@
 		0B91203A2B9D9D670086E593 /* AdaptingDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9120392B9D9D670086E593 /* AdaptingDarkMode.swift */; };
 		0B91203D2B9DB9E00086E593 /* DocumentationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B91203C2B9DB9E00086E593 /* DocumentationBootcamp.swift */; };
 		0B9AF93A2D24094900669C63 /* AlignmentGuidesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AF9392D24094900669C63 /* AlignmentGuidesBootcamp.swift */; };
+		0B9AF93D2D241E5500669C63 /* VisualEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AF93C2D241E5500669C63 /* VisualEffectBootcamp.swift */; };
 		0B9D5E292C1E18640021597F /* AsyncImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D5E282C1E18640021597F /* AsyncImageBootcamp.swift */; };
 		0B9D5E2C2C1E1DBF0021597F /* BackgroundMaterialsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D5E2B2C1E1DBF0021597F /* BackgroundMaterialsBootcamp.swift */; };
 		0BA2A83E2B9DF4B800F14E94 /* TapGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2A83D2B9DF4B800F14E94 /* TapGestureBootcamp.swift */; };
@@ -199,6 +200,7 @@
 		0B9120392B9D9D670086E593 /* AdaptingDarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptingDarkMode.swift; sourceTree = "<group>"; };
 		0B91203C2B9DB9E00086E593 /* DocumentationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationBootcamp.swift; sourceTree = "<group>"; };
 		0B9AF9392D24094900669C63 /* AlignmentGuidesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuidesBootcamp.swift; sourceTree = "<group>"; };
+		0B9AF93C2D241E5500669C63 /* VisualEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBootcamp.swift; sourceTree = "<group>"; };
 		0B9D5E282C1E18640021597F /* AsyncImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBootcamp.swift; sourceTree = "<group>"; };
 		0B9D5E2B2C1E1DBF0021597F /* BackgroundMaterialsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsBootcamp.swift; sourceTree = "<group>"; };
 		0BA2A83D2B9DF4B800F14E94 /* TapGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -807,6 +809,14 @@
 			path = "31-Alignment Guides";
 			sourceTree = "<group>";
 		};
+		0B9AF93B2D241E3D00669C63 /* 32-Visual Effect */ = {
+			isa = PBXGroup;
+			children = (
+				0B9AF93C2D241E5500669C63 /* VisualEffectBootcamp.swift */,
+			);
+			path = "32-Visual Effect";
+			sourceTree = "<group>";
+		};
 		0B9D5E272C1E17F00021597F /* 51-Async Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -889,6 +899,7 @@
 				0BDC98DB2D22D58D00B0AA2B /* 29-Accessibility Colors */,
 				0BDC98DE2D22E7B500B0AA2B /* 30-Accessibility Voice Over */,
 				0B9AF9382D24091000669C63 /* 31-Alignment Guides */,
+				0B9AF93B2D241E3D00669C63 /* 32-Visual Effect */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -1453,6 +1464,7 @@
 				0B18D9592C82B4E800AD6CB0 /* MagnificationGestureBootcamp.swift in Sources */,
 				0BD8FBC92B66B2C800424BB6 /* SafeAreaBootcamp.swift in Sources */,
 				0BA90E482CDF739A0003E741 /* LocalNotificationsBootcamp.swift in Sources */,
+				0B9AF93D2D241E5500669C63 /* VisualEffectBootcamp.swift in Sources */,
 				0BEC4D822B98FD7F00487064 /* TextEditorBootcamp.swift in Sources */,
 				0B5B02C32B4ABAA700C97EA8 /* ColorsBootcamp.swift in Sources */,
 				0BFF07A02BB0443500C892DB /* AppStorageBootcamp.swift in Sources */,
