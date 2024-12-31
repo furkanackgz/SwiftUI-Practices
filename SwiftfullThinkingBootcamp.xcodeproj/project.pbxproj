@@ -76,6 +76,7 @@
 		0B91203D2B9DB9E00086E593 /* DocumentationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B91203C2B9DB9E00086E593 /* DocumentationBootcamp.swift */; };
 		0B9AF93A2D24094900669C63 /* AlignmentGuidesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AF9392D24094900669C63 /* AlignmentGuidesBootcamp.swift */; };
 		0B9AF93D2D241E5500669C63 /* VisualEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AF93C2D241E5500669C63 /* VisualEffectBootcamp.swift */; };
+		0B9AF9402D242B7900669C63 /* ScrollViewPagingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AF93F2D242B7900669C63 /* ScrollViewPagingBootcamp.swift */; };
 		0B9D5E292C1E18640021597F /* AsyncImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D5E282C1E18640021597F /* AsyncImageBootcamp.swift */; };
 		0B9D5E2C2C1E1DBF0021597F /* BackgroundMaterialsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D5E2B2C1E1DBF0021597F /* BackgroundMaterialsBootcamp.swift */; };
 		0BA2A83E2B9DF4B800F14E94 /* TapGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2A83D2B9DF4B800F14E94 /* TapGestureBootcamp.swift */; };
@@ -201,6 +202,7 @@
 		0B91203C2B9DB9E00086E593 /* DocumentationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationBootcamp.swift; sourceTree = "<group>"; };
 		0B9AF9392D24094900669C63 /* AlignmentGuidesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuidesBootcamp.swift; sourceTree = "<group>"; };
 		0B9AF93C2D241E5500669C63 /* VisualEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBootcamp.swift; sourceTree = "<group>"; };
+		0B9AF93F2D242B7900669C63 /* ScrollViewPagingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPagingBootcamp.swift; sourceTree = "<group>"; };
 		0B9D5E282C1E18640021597F /* AsyncImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBootcamp.swift; sourceTree = "<group>"; };
 		0B9D5E2B2C1E1DBF0021597F /* BackgroundMaterialsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsBootcamp.swift; sourceTree = "<group>"; };
 		0BA2A83D2B9DF4B800F14E94 /* TapGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -817,6 +819,14 @@
 			path = "32-Visual Effect";
 			sourceTree = "<group>";
 		};
+		0B9AF93E2D242B4700669C63 /* 33-Paging Modifier Scroll View */ = {
+			isa = PBXGroup;
+			children = (
+				0B9AF93F2D242B7900669C63 /* ScrollViewPagingBootcamp.swift */,
+			);
+			path = "33-Paging Modifier Scroll View";
+			sourceTree = "<group>";
+		};
 		0B9D5E272C1E17F00021597F /* 51-Async Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -900,6 +910,7 @@
 				0BDC98DE2D22E7B500B0AA2B /* 30-Accessibility Voice Over */,
 				0B9AF9382D24091000669C63 /* 31-Alignment Guides */,
 				0B9AF93B2D241E3D00669C63 /* 32-Visual Effect */,
+				0B9AF93E2D242B4700669C63 /* 33-Paging Modifier Scroll View */,
 			);
 			path = "Intermediate Level";
 			sourceTree = "<group>";
@@ -1476,6 +1487,7 @@
 				0BEB1BDD2C2071BE00255BF0 /* SwipeActionsBootcamp.swift in Sources */,
 				0B7205992B937950006B6BB9 /* ListBootcamp.swift in Sources */,
 				0B0162852CD4E0270046E07D /* SoundEffectsBootcamp.swift in Sources */,
+				0B9AF9402D242B7900669C63 /* ScrollViewPagingBootcamp.swift in Sources */,
 				0B6ED5542BB16AF500B29ABE /* OnboardingView.swift in Sources */,
 				0BDC98E02D22E7D100B0AA2B /* AccessibilityVoiceOver.swift in Sources */,
 				0BC7CA042B8B935A00E3AE5F /* SheetVsTransitionVsAnimation.swift in Sources */,
